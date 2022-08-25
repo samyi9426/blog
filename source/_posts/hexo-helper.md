@@ -24,9 +24,10 @@ toc: true
 每隔10天执行一次部署，备份任务
 >
 >```bash
->00 20 */10 * * 
->50 15 * * * bash $HOME//blog/.scripts/deploy_and_backup_blog.sh>>$HOME/blog/deployment.log
->00 20 */10 * * bash $HOME//blog/.scripts/deploy_and_backup_blog.sh>>$HOME/blog/deployment.log
+>#for test
+>50 15 * * * bash $HOME/blog/.scripts/deploy_and_backup_blog.sh>>$HOME/blog/deployment.log
+>#release 
+>00 20 */10 * * bash $HOME/blog/.scripts/deploy_and_backup_blog.sh>>$HOME/blog/deployment.log
 >
 >```
 >
