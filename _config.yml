@@ -16,7 +16,7 @@ timezone: ''
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: hexo-theme-clean
-theme: landscape-1
+theme: landscape
 
 
 
