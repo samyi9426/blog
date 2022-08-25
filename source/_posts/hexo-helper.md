@@ -23,9 +23,11 @@ toc: true
 
 每隔10天执行一次部署，备份任务
 >
-> ```bash
-> 00 20 */10 * * hexodd
-> ```
+>```bash
+>00 20 */10 * * 
+>42 15 * * * bash $HOME/.my_batch_sh/deploy_and_backup_blog.sh>>$HOME/blog/deployment.log
 >
-> 
+>```
+>
+>
 
