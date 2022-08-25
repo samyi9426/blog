@@ -5,7 +5,7 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') running script..."
 cd $HOME/blog/
 # 部署
 echo "部署..."
-#hexo clean
+hexo clean
 hexo g -d
 
 # 备份
