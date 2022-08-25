@@ -96,7 +96,7 @@
     <link href="https://samingzhong.github.io/2022/08/25/flutter-question-and-answers/"/>
     <id>https://samingzhong.github.io/2022/08/25/flutter-question-and-answers/</id>
     <published>2022-08-25T05:52:03.000Z</published>
-    <updated>2022-08-25T09:22:42.024Z</updated>
+    <updated>2022-08-25T11:03:24.057Z</updated>
     
     <content type="html"><![CDATA[<h3 id="Everything-is-a-Widget"><a href="#Everything-is-a-Widget" class="headerlink" title="Everything is a Widget"></a>Everything is a Widget</h3><p>一切皆组件</p><h3 id="Flutter转场卡顿"><a href="#Flutter转场卡顿" class="headerlink" title="Flutter转场卡顿"></a>Flutter转场卡顿</h3><ol><li><p>转场动画加上页面初始化&#x2F;销毁中较复杂的操作（一般涉及到IO或者比较消耗CPU的计算），可能会引起页面卡顿。</p><p>解决方案</p><blockquote><ol><li>退出页面卡顿：找出导致卡顿的代码，并做异步线程调用或者延迟调用，或者调用后，延迟退出页面。</li><li>进入页面卡顿：找出导致卡顿的代码，并做异步线程调用或者延迟调用，相关数据等待可以加loading。</li></ol></blockquote></li><li><p>动画卡顿</p><ol><li>当前机器发热严重，CPU&#x2F;GPU处于降频期间。</li></ol></li></ol>]]></content>
     
