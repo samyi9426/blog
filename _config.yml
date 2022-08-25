@@ -105,3 +105,13 @@ deploy:
   type: git
   repository: git@github.com:samingzhong/samingzhong.github.io.git
   branch: master
+
+
+# Extensions
+plugins:
+  hexo-generator-feed
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
