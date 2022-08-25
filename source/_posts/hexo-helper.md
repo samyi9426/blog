@@ -9,7 +9,7 @@ toc: true
 
 ### [Hexo建站基础篇](http://hanyu.fit/2021/06/17/记%20---%20关于近段时间学习的总结(Hexo建站%20--%20基础篇-搭建环境)/)
 
-### [添加文章目录](https://xyzardq.github.io/2016/11/04/Hexo添加文章目录/)
+###  [添加文章目录](https://xyzardq.github.io/2016/11/04/Hexo添加文章目录/)
 
 ### [更换主题](https://zhuanlan.zhihu.com/p/137338730) 
 
