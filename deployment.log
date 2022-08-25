@@ -45,3 +45,49 @@ INFO  Deploy done: git
  delete mode 100644  .log
 ----------------- end ------------------------
 
+
+
+2022-08-25 20:00:02 running script...
+部署...
+INFO  Validating config
+INFO  Deleted database.
+INFO  Deleted public folder.
+INFO  Validating config
+INFO  Start processing
+INFO  Files loaded in 78 ms
+INFO  Generated: atom.xml
+INFO  Generated: archives/index.html
+INFO  Generated: archives/2022/08/index.html
+INFO  Generated: index.html
+INFO  Generated: fancybox/jquery.fancybox.min.css
+INFO  Generated: css/fonts/FontAwesome.otf
+INFO  Generated: js/script.js
+INFO  Generated: archives/2022/index.html
+INFO  Generated: fancybox/jquery.fancybox.min.js
+INFO  Generated: css/fonts/fontawesome-webfont.eot
+INFO  Generated: css/fonts/fontawesome-webfont.woff2
+INFO  Generated: css/images/banner1.jpg
+INFO  Generated: css/images/banner.jpg
+INFO  Generated: css/style.css
+INFO  Generated: css/fonts/fontawesome-webfont.ttf
+INFO  Generated: js/jquery-3.4.1.min.js
+INFO  Generated: css/fonts/fontawesome-webfont.woff
+INFO  Generated: 2022/08/25/flutter-books-and-articles/index.html
+INFO  Generated: css/images/banner2.jpg
+INFO  Generated: css/images/banner3.jpg
+INFO  Generated: 2022/08/25/flutter-widget/index.html
+INFO  Generated: 2022/08/25/flutter-question-and-answers/index.html
+INFO  Generated: 2022/08/25/flutter-study-plan/index.html
+INFO  Generated: 2022/08/25/flutter-study-start/index.html
+INFO  Generated: css/fonts/fontawesome-webfont.svg
+INFO  Generated: 2022/08/25/hexo/hexo-helper/index.html
+INFO  26 files generated in 129 ms
+INFO  Deploying: git
+INFO  Clearing .deploy_git folder...
+INFO  Copying files from public folder...
+INFO  Copying files from extend dirs...
+[master d365b36] Site updated: 2022-08-25 20:00:03
+ 7 files changed, 12 insertions(+), 12 deletions(-)
+Branch 'master' set up to track remote branch 'master' from 'git@github.com:samingzhong/samingzhong.github.io.git'.
+INFO  Deploy done: git
+备份...
