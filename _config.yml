@@ -3,13 +3,23 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: SAM's Blog
-subtitle: 'SAMs Blog'
-description: 'SAMs Blog'
+title: Code Less
+subtitle: 'Think more, code less'
+description: 'Think more, code less'
 keywords:
 author: SAM
 language: cn
 timezone: ''
+
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+#theme: hexo-theme-clean
+theme: landscape
+
+
+
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -94,10 +104,7 @@ include:
 exclude:
 ignore:
 
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: landscape
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
