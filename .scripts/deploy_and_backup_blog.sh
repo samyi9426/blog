@@ -10,5 +10,8 @@ hexo g -d
 
 # 备份
 echo "备份..."
-bash $HOME/blog/.scripts/autoUpload.sh
+git add .
+git commit -m "自动同步blog"
+git push
+
 echo -e "----------------- end ------------------------\n"

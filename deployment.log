@@ -17,3 +17,26 @@ INFO  Copying files from extend dirs...
 Branch 'master' set up to track remote branch 'master' from 'git@github.com:samingzhong/samingzhong.github.io.git'.
 INFO  Deploy done: git
 备份...
+[master ff5874a] 自动同步blog
+ 7 files changed, 29 insertions(+), 259 deletions(-)
+ copy deployment.log =>  .log (98%)
+ rewrite deployment.log (95%)
+----------------- end ------------------------
+
+
+
+2022-08-25 16:06:57 running script...
+部署...
+INFO  Validating config
+INFO  Start processing
+INFO  Files loaded in 56 ms
+INFO  0 files generated in 19 ms
+INFO  Deploying: git
+INFO  Clearing .deploy_git folder...
+INFO  Copying files from public folder...
+INFO  Copying files from extend dirs...
+On branch master
+nothing to commit, working tree clean
+Branch 'master' set up to track remote branch 'master' from 'git@github.com:samingzhong/samingzhong.github.io.git'.
+INFO  Deploy done: git
+备份...
