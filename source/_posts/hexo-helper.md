@@ -25,7 +25,8 @@ toc: true
 >
 >```bash
 >00 20 */10 * * 
->42 15 * * * bash $HOME/.my_batch_sh/deploy_and_backup_blog.sh>>$HOME/blog/deployment.log
+>50 15 * * * bash $HOME//blog/.scripts/deploy_and_backup_blog.sh>>$HOME/blog/deployment.log
+>00 20 */10 * * bash $HOME//blog/.scripts/deploy_and_backup_blog.sh>>$HOME/blog/deployment.log
 >
 >```
 >
