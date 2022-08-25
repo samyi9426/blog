@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Code less</title>
+  <title>Code Less.</title>
   
   <subtitle>Think more, code less</subtitle>
   <link href="https://samingzhong.github.io/atom.xml" rel="self"/>
   
   <link href="https://samingzhong.github.io/"/>
-  <updated>2022-08-25T03:30:04.066Z</updated>
+  <updated>2022-08-25T06:57:47.346Z</updated>
   <id>https://samingzhong.github.io/</id>
   
   <author>
@@ -17,9 +17,49 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo建站Q&amp;A</title>
+    <link href="https://samingzhong.github.io/2022/08/25/hexo-helper/"/>
+    <id>https://samingzhong.github.io/2022/08/25/hexo-helper/</id>
+    <published>2022-08-25T06:45:18.000Z</published>
+    <updated>2022-08-25T06:57:47.346Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Hexo官方介绍"><a href="#Hexo官方介绍" class="headerlink" title="Hexo官方介绍"></a><a href="https://hexo.io/zh-cn/">Hexo官方介绍</a></h3><h3 id="Hexo建站基础篇"><a href="#Hexo建站基础篇" class="headerlink" title="Hexo建站基础篇"></a><a href="http://hanyu.fit/2021/06/17/%E8%AE%B0%20---%20%E5%85%B3%E4%BA%8E%E8%BF%91%E6%AE%B5%E6%97%B6%E9%97%B4%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%80%BB%E7%BB%93(Hexo%E5%BB%BA%E7%AB%99%20--%20%E5%9F%BA%E7%A1%80%E7%AF%87-%E6%90%AD%E5%BB%BA%E7%8E%AF%E5%A2%83)/">Hexo建站基础篇</a></h3><h3 id="添加文章目录"><a href="#添加文章目录" class="headerlink" title="添加文章目录"></a><a href="https://xyzardq.github.io/2016/11/04/Hexo%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95/">添加文章目录</a></h3><h3 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a><a href="https://zhuanlan.zhihu.com/p/137338730">更换主题</a></h3><h3 id="新增RSS订阅"><a href="#新增RSS订阅" class="headerlink" title="新增RSS订阅"></a><a href="https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwioobuwtOH5AhXnt1YBHThrBVkQFnoECAYQAw&url=https://zhuanlan.zhihu.com/p/392900543&usg=AOvVaw2yK-opF-gOHYXKevVeXYPH">新增RSS订阅</a></h3><p>该博主hexo相关文章（建站、使用）<a href="https://www.zhihu.com/column/c_1402548025064128512">hexo相关</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;Hexo官方介绍&quot;&gt;&lt;a href=&quot;#Hexo官方介绍&quot; class=&quot;headerlink&quot; title=&quot;Hexo官方介绍&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://hexo.io/zh-cn/&quot;&gt;Hexo官方介绍&lt;/a&gt;&lt;/h3&gt;&lt;h3 id=&quot;Hexo</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Flutter 开发Q&amp;A</title>
+    <link href="https://samingzhong.github.io/2022/08/25/flutter-question-and-answers/"/>
+    <id>https://samingzhong.github.io/2022/08/25/flutter-question-and-answers/</id>
+    <published>2022-08-25T05:52:03.000Z</published>
+    <updated>2022-08-25T07:00:46.958Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Everything-is-a-Widget"><a href="#Everything-is-a-Widget" class="headerlink" title="Everything is a Widget"></a>Everything is a Widget</h2><p>一切皆组件</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Everything-is-a-Widget&quot;&gt;&lt;a href=&quot;#Everything-is-a-Widget&quot; class=&quot;headerlink&quot; title=&quot;Everything is a Widget&quot;&gt;&lt;/a&gt;Everything is a Widg</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>hexo-script-helper</title>
-    <link href="https://samingzhong.github.io/2022/08/25/hexo-script-helper/"/>
-    <id>https://samingzhong.github.io/2022/08/25/hexo-script-helper/</id>
+    <link href="https://samingzhong.github.io/2022/08/25/flutter/hexo-script-helper/"/>
+    <id>https://samingzhong.github.io/2022/08/25/flutter/hexo-script-helper/</id>
     <published>2022-08-25T02:53:34.000Z</published>
     <updated>2022-08-25T03:30:04.066Z</updated>
     
@@ -38,8 +78,8 @@
   
   <entry>
     <title>移动开发技术-flutter学习开篇</title>
-    <link href="https://samingzhong.github.io/2022/08/25/flutter-study/"/>
-    <id>https://samingzhong.github.io/2022/08/25/flutter-study/</id>
+    <link href="https://samingzhong.github.io/2022/08/25/flutter/flutter-study/"/>
+    <id>https://samingzhong.github.io/2022/08/25/flutter/flutter-study/</id>
     <published>2022-08-25T02:06:23.167Z</published>
     <updated>2022-08-25T02:48:54.259Z</updated>
     
@@ -49,26 +89,6 @@
       
       
     <summary type="html">&lt;p&gt;​		从2015年开始至今，一直从事iOS原生开发，跨平台技术也一直在发展，从刚开始的H5技术到2014年Facebook推出的RN，然后到2017年Google推出的Flutter，一直到现在Flutter这个后起之秀，无论是开发体验还是应用性能，已经是跨平台的主流技术了</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://samingzhong.github.io/2022/08/24/hello-world/"/>
-    <id>https://samingzhong.github.io/2022/08/24/hello-world/</id>
-    <published>2022-08-24T11:12:54.242Z</published>
-    <updated>2022-08-25T02:07:15.526Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
       
     
     

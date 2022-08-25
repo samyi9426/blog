@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Code Less
+title: Code Less.
 subtitle: 'Think more, code less'
 description: 'Think more, code less'
 keywords:
@@ -16,7 +16,7 @@ timezone: ''
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: hexo-theme-clean
-theme: landscape
+theme: landscape-1
 
 
 
@@ -117,6 +117,8 @@ deploy:
 # Extensions
 plugins:
   hexo-generator-feed
+
+
 #Feed Atom
 feed:
   type: atom
