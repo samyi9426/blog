@@ -1,6 +1,6 @@
 #!/bin/bash
 echo -e "\n"
-echo "running script $0 at $(date '+%Y-%m-%d %H:%M:%S')..."
+echo "$(date '+%Y-%m-%d %H:%M:%S') running script..."
 
 cd $HOME/blog/
 # 部署
@@ -11,4 +11,4 @@ hexo g -d
 # 备份
 echo "备份..."
 bash $HOME/blog/.scripts/autoUpload.sh
-echo -e "-----------------------------------------\n"
+echo -e "----------------- end ------------------------\n"
