@@ -1,3 +1,6 @@
 [submodule "themes/landscape"]
 	path = themes/landscape
 	url = git@github.com:samingzhong/hexo-theme-landscape.git
+[submodule "themes/hexo-theme-clean"]
+	path = themes/hexo-theme-clean
+	url = git@github.com:samingzhong/hexo-theme-clean.git
