@@ -15,7 +15,7 @@ toc: true
 
 分享一段关于小朋友的视频
 
-<video height=400 src="https://samingzhong.github.io/images/video828.mp4" controls>   你的浏览器不支持 <code>video</code> 标签。 </video>
+<video height=400 src="https://samingzhong.github.io/images/2022/video828.mp4" controls>   你的浏览器不支持 <code>video</code> 标签。 </video>
 
 ## 科技行业
 
