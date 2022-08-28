@@ -5,10 +5,6 @@ tags: [App变现, AppFlyer, 最佳实践, App运营]
 toc: true
 ---
 
-[toc]
-
-
-
 # App 变现模式与变现策略
 
 
@@ -19,7 +15,7 @@ toc: true
 
 ![App monetization - chapter 1: What's app monetization](https://www.appsflyer.com/wp-content/uploads/2022/03/8058_app-monetization-guide-chapter-1-what-is-app-monetization-1.jpg)
 
-第一章
+# 第一章
 
 ##  什么是 App 变现，为什么它很重要？
 
@@ -38,7 +34,7 @@ toc: true
 
 ![App monetization - Chapter 2: Models and strategies](https://www.appsflyer.com/wp-content/uploads/2022/03/8058_app-monetization-guide-chapter-2-models-strategies-1.jpg)
 
-第二章
+# 第二章
 
 市面上的付费 App 也很常见。当应用市场刚打开大门时，大多数受欢迎的应用都要花钱。在商业化模式还未积累到一定数据时，要求用户预付费是 App 最首要的变现模式。数据维度增加后，开发者、广告主和营销人员开始明白，应用内购买、应用内广告和其他多样化的变现模式证明是可以实现变现。这就是为什么现在免费 App 是行业常态。自从 iOS14.5+ 通过 ATT 弹窗增强归因衡量过程中的用户隐私保护，由于广告主所获取的数据维度受限，衡量广告效果、定位投放人群以及优化营销活动变得异常困难。游戏 App 尤其受到重大打击，因为它们高度依赖 a）付费营销来刺激增长，b）用户层级数据提升广告支出回报率，为 App 找到鲸鱼用户（即占比极小但带来收入占比极高的用户）。
 
@@ -233,7 +229,7 @@ toc: true
 
 ![App monetization - chapter 3: App store platform fees](https://www.appsflyer.com/wp-content/uploads/2022/03/8058_app-monetization-guide-chapter-3-app-store-fees-1.jpg)
 
-第三章
+# 第三章
 
 ## 应用商店平台费用
 
@@ -251,7 +247,7 @@ toc: true
 
 ![App monetization - chapter 4: Key metrics](https://www.appsflyer.com/wp-content/uploads/2022/03/8058_app-monetization-chapter-4-key-metrics-1.jpg)
 
-第四章
+# 第四章
 
 ## 衡量你的 App 变现模式有效关键指标
 
