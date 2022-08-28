@@ -1,7 +1,7 @@
 ---
 title: 9月
 date: 2022-08-28 16:00:43
-tags:
+tags: [生活]
 toc: true
 ---
 
