@@ -1,7 +1,7 @@
 ---
 title: Hexo建站Q&A
 date: 2022-07-23 14:45:18
-tags:
+tags: [Hexo]
 toc: true
 ---
 
