@@ -56,12 +56,16 @@ toc: true
 #### 2.创建别名，便捷调用命令
 
 > ```bash
-> alias hexonew='$HOME/blog/.sripts/blog_new.sh'
+> . "$HOME/.cargo/env"
+> alias hexonew='$HOME/blog/.scripts/blog_new.sh'
 > alias hexog='cd $HOME/blog/;hexo g'
-> alias hexod='cd $HOME/blog/;hexo d'
-> alias hexodd='hexog;hexod'
+> # 生成并发布博客
+> alias hexod='cd $HOME/blog/;hexo g -d'
+> # 生成、发布博客，并且备份到github
+> alias hexodd='bash $HOME/blog/.scripts/deploy_and_backup_blog.sh'
 > alias hexos='cd $HOME/blog/;hexo s'
 > ```
 
 
 
+### 文章中插入本地图片（仓库图片）[](https://hexo.io/zh-cn/docs/asset-folders.html)
