@@ -5,7 +5,7 @@ tags: [Hexo]
 toc: true
 ---
 
-[toc]
+
 
 ### [Hexo官方介绍](https://hexo.io/zh-cn/)
 
@@ -63,9 +63,9 @@ toc: true
 > # 生成+发布
 > alias hexod='cd $HOME/blog/;hexo g -d'
 > # 生成+备份
-> alias hexogb='cd $HOME/blog/;hexo g;bash $HOME/blog/.scripts/autoUpload.sh'
+> alias hexob='cd $HOME/blog/;hexo g;bash $HOME/blog/.scripts/autoUpload.sh'
 > # 生成+发布+备份
-> alias hexodb='bash $HOME/blog/.scripts/deploy_and_backup_blog.sh'
+> alias hexodd='bash $HOME/blog/.scripts/deploy_and_backup_blog.sh'
 > 
 > alias hexos='cd $HOME/blog/;hexo s'
 > ```
