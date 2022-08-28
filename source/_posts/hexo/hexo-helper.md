@@ -59,16 +59,24 @@ toc: true
 > . "$HOME/.cargo/env"
 > alias hexonew='$HOME/blog/.scripts/blog_new.sh'
 > alias hexog='cd $HOME/blog/;hexo g'
-> # 生成并发布博客
+> 
+> # 生成+发布
 > alias hexod='cd $HOME/blog/;hexo g -d'
-> # 生成、发布博客，并且备份到github
-> alias hexodd='bash $HOME/blog/.scripts/deploy_and_backup_blog.sh'
+> # 生成+备份
+> alias hexogb='cd $HOME/blog/;hexo g;bash $HOME/blog/.scripts/autoUpload.sh'
+> # 生成+发布+备份
+> alias hexodb='bash $HOME/blog/.scripts/deploy_and_backup_blog.sh'
+> 
 > alias hexos='cd $HOME/blog/;hexo s'
 > ```
 
 
 
 ### 文章中插入本地图片（仓库图片）[](https://hexo.io/zh-cn/docs/asset-folders.html)
+
+
+
+
 
 
 
