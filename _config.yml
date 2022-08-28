@@ -18,6 +18,13 @@ timezone: ''
 theme: landscape
 
 
+menu:
+home: /
+archives: /archives/
+categories: /categories/
+tags: /tags/
+about: /about/
+
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
