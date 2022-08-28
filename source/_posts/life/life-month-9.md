@@ -13,11 +13,15 @@ toc: true
 
 那就钢琴希望她能学有所成吧～
 
+分享一段关于小朋友的视频
+
+<video height=400 src="https://samingzhong.github.io/images/video828.mp4" controls>   你的浏览器不支持 <code>video</code> 标签。 </video>
+
 ## 科技行业
 
 9月份是个科技行业热闹的月份。个人比较关注的有几个：苹果即将发布新款iPhone、小鹏G9上市。无论哪个，都是凑凑热闹，不会考虑掏钱买，（也没钱买😂）。
 
-![](/images/iphone14.jpeg)
+![](/images/2022/iphone14.jpeg)
 
 - 新款iPhone。
 
@@ -33,7 +37,7 @@ toc: true
 
   
 
-  ![](/images/G9.jpeg)
+  ![](/images/2022/G9.jpeg)
 
 - 小鹏G9。这是奶爸车定位，类似理想One。目测售价30-50w，好贵，我不配关注它😂。
 
