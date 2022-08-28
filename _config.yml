@@ -18,12 +18,12 @@ timezone: ''
 theme: landscape
 
 
-menu:
-home: /
-archives: /archives/
-categories: /categories/
-tags: /tags/
-about: /about/
+# menu:
+# home: /
+# archives: /archives/
+# categories: /categories/
+# tags: /tags/
+# about: /about/
 
 
 # URL
