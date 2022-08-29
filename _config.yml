@@ -3,7 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Stay hungry, stay foolish.
+# title: Stay hungry, stay foolish.
+title: ''
 subtitle: 'Think more, code less.'
 description: 'Think more, code less.'
 keywords:
