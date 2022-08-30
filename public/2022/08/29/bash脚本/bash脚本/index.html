@@ -6,15 +6,15 @@
   
   <title>Bash脚本 | </title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Bash脚本是个人使用较多的脚本语言，记录下常见的需求以及解决方案。 Mac OS X: 音量控制等 - CSDN博客">
+  <meta name="description" content="Bash脚本是个人使用较多的脚本语言，记录下常见的需求以及解决方案。 Mac OS X: 音量控制等 - CSDN博客根据关键词kill掉进程12345678910111213141516171819202122#!&#x2F;bin&#x2F;bash# ~&#x2F;.my_batch_sh&#x2F;others&#x2F;kill_app_with_keyword.sh# kill app with nameapp&#x3D;$1get_app_f">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Bash脚本">
 <meta property="og:url" content="https://samingzhong.github.io/2022/08/29/bash%E8%84%9A%E6%9C%AC/bash%E8%84%9A%E6%9C%AC/index.html">
 <meta property="og:site_name">
-<meta property="og:description" content="Bash脚本是个人使用较多的脚本语言，记录下常见的需求以及解决方案。 Mac OS X: 音量控制等 - CSDN博客">
+<meta property="og:description" content="Bash脚本是个人使用较多的脚本语言，记录下常见的需求以及解决方案。 Mac OS X: 音量控制等 - CSDN博客根据关键词kill掉进程12345678910111213141516171819202122#!&#x2F;bin&#x2F;bash# ~&#x2F;.my_batch_sh&#x2F;others&#x2F;kill_app_with_keyword.sh# kill app with nameapp&#x3D;$1get_app_f">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-08-29T06:03:12.000Z">
-<meta property="article:modified_time" content="2022-08-29T06:07:14.861Z">
+<meta property="article:modified_time" content="2022-08-30T16:09:39.082Z">
 <meta property="article:author" content="SAM">
 <meta property="article:tag" content="Bash">
 <meta name="twitter:card" content="summary">
@@ -104,11 +104,16 @@
       
         <div id="toc" class="toc-article">
           <strong class="toc-title">文章目录</strong>
-          <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Mac-OS-X-%E9%9F%B3%E9%87%8F%E6%8E%A7%E5%88%B6%E7%AD%89-CSDN%E5%8D%9A%E5%AE%A2"><span class="toc-number">1.</span> <span class="toc-text">Mac OS X: 音量控制等 - CSDN博客</span></a></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Mac-OS-X-%E9%9F%B3%E9%87%8F%E6%8E%A7%E5%88%B6%E7%AD%89-CSDN%E5%8D%9A%E5%AE%A2"><span class="toc-number">1.</span> <span class="toc-text">Mac OS X: 音量控制等 - CSDN博客</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%B9%E6%8D%AE%E5%85%B3%E9%94%AE%E8%AF%8Dkill%E6%8E%89%E8%BF%9B%E7%A8%8B"><span class="toc-number"></span> <span class="toc-text">根据关键词kill掉进程</span></a>
         </div>
       
         <p>Bash脚本是个人使用较多的脚本语言，记录下常见的需求以及解决方案。</p>
-<h3 id="Mac-OS-X-音量控制等-CSDN博客"><a href="#Mac-OS-X-音量控制等-CSDN博客" class="headerlink" title="Mac OS X: 音量控制等 - CSDN博客"></a><a target="_blank" rel="noopener" href="https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjnzurHr-v5AhVK4GEKHf3pAVwQFnoECBcQAQ&url=https://blog.csdn.net/cneducation/article/details/3899819&usg=AOvVaw2XzcrRS1CIM6CQZy7QUMJw">Mac OS X: 音量控制等 - CSDN博客</a></h3>
+<h3 id="Mac-OS-X-音量控制等-CSDN博客"><a href="#Mac-OS-X-音量控制等-CSDN博客" class="headerlink" title="Mac OS X: 音量控制等 - CSDN博客"></a><a target="_blank" rel="noopener" href="https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjnzurHr-v5AhVK4GEKHf3pAVwQFnoECBcQAQ&url=https://blog.csdn.net/cneducation/article/details/3899819&usg=AOvVaw2XzcrRS1CIM6CQZy7QUMJw">Mac OS X: 音量控制等 - CSDN博客</a></h3><h2 id="根据关键词kill掉进程"><a href="#根据关键词kill掉进程" class="headerlink" title="根据关键词kill掉进程"></a>根据关键词kill掉进程</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="comment"># ~/.my_batch_sh/others/kill_app_with_keyword.sh</span></span><br><span class="line"><span class="comment"># kill app with name</span></span><br><span class="line"></span><br><span class="line">app=<span class="variable">$1</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">get_app_full_path_with_keyWord</span></span>()&#123;</span><br><span class="line">	app=<span class="variable">$1</span></span><br><span class="line"></span><br><span class="line">	<span class="built_in">echo</span> $(ps -ef|grep <span class="variable">$app</span>|grep /Application|awk <span class="string">&#x27;&#123;print $8&#125;&#x27;</span>)</span><br><span class="line">	<span class="comment"># echo $(ps -ef|grep Android|grep /Application|awk &#x27;&#123;print $2&#125;&#x27;)</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">kill_app_with_keyword</span></span>()&#123;</span><br><span class="line">	app=<span class="variable">$1</span></span><br><span class="line">	ps -ef|grep <span class="variable">$app</span>|grep /Application|awk <span class="string">&#x27;&#123;print $2&#125;&#x27;</span>|xargs <span class="built_in">kill</span> -9</span><br><span class="line">	<span class="comment"># ps -ef|grep Android|grep /Application|awk &#x27;&#123;print $2&#125;&#x27;|xargs kill -9</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;killing <span class="subst">$(get_app_full_path_with_keyWord $app)</span>...&quot;</span></span><br><span class="line">kill_app_with_keyword <span class="variable">$app</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;job done!&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>然后可以这样调用：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"></span><br><span class="line">killer=~/.my_batch_sh/others/kill_app_with_keyword.sh</span><br><span class="line">app_keywords=(Android Xcode Typora Safari Chrome Music Termin Sub)</span><br><span class="line"><span class="comment"># Termin</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> app <span class="keyword">in</span> <span class="variable">$&#123;app_keywords[@]&#125;</span></span><br><span class="line"><span class="keyword">do</span></span><br><span class="line">  <span class="variable">$killer</span> <span class="variable">$app</span></span><br><span class="line"><span class="keyword">done</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
       
     </div>
     <footer class="article-footer">
@@ -123,6 +128,15 @@
   
     
 <nav id="article-nav">
+  
+    <a href="/2022/08/31/bash-helper/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">前一篇</strong>
+      <div class="article-nav-title">
+        
+          bash-helper
+        
+      </div>
+    </a>
   
   
     <a href="/2022/08/29/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/" id="article-nav-older" class="article-nav-link-wrap">
@@ -179,6 +193,10 @@
       <ul>
         
           <li>
+            <a href="/2022/08/31/bash-helper/">bash-helper</a>
+          </li>
+        
+          <li>
             <a href="/2022/08/29/bash%E8%84%9A%E6%9C%AC/bash%E8%84%9A%E6%9C%AC/">Bash脚本</a>
           </li>
         
@@ -192,10 +210,6 @@
         
           <li>
             <a href="/2022/08/28/App%E8%BF%90%E8%90%A5/%E5%85%B3%E9%94%AE%E7%BB%93%E8%AE%BA/">关键结论</a>
-          </li>
-        
-          <li>
-            <a href="/2022/08/28/product/product-life/">四大产品生命周期丨运营如何明确不同阶段的目标和效果</a>
           </li>
         
       </ul>

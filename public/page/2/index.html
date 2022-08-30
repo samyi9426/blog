@@ -77,6 +77,65 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-Flutter 开发Q&amp;A" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/08/25/Flutter%20%E5%BC%80%E5%8F%91Q&A/" class="article-date">
+  <time class="dt-published" datetime="2022-08-25T05:52:03.000Z" itemprop="datePublished">2022-08-25</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/08/25/Flutter%20%E5%BC%80%E5%8F%91Q&A/">Flutter 开发Q&amp;A</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+      <!-- Table of Contents -->
+      
+        <h3 id="Everything-is-a-Widget"><a href="#Everything-is-a-Widget" class="headerlink" title="Everything is a Widget"></a>Everything is a Widget</h3><p>一切皆组件</p>
+<h3 id="Flutter转场卡顿"><a href="#Flutter转场卡顿" class="headerlink" title="Flutter转场卡顿"></a>Flutter转场卡顿</h3><ol>
+<li><p>转场动画加上页面初始化&#x2F;销毁中较复杂的操作（一般涉及到IO或者比较消耗CPU的计算），可能会引起页面卡顿。</p>
+<p>解决方案</p>
+<blockquote>
+<ol>
+<li>退出页面卡顿：找出导致卡顿的代码，并做异步线程调用或者延迟调用，或者调用后，延迟退出页面。</li>
+<li>进入页面卡顿：找出导致卡顿的代码，并做异步线程调用或者延迟调用，相关数据等待可以加loading。</li>
+</ol>
+</blockquote>
+</li>
+<li><p>动画卡顿</p>
+<ol>
+<li>当前机器发热严重，CPU&#x2F;GPU处于降频期间。</li>
+</ol>
+</li>
+</ol>
+<h3 id="Flutter-切圆角-ClipRRect"><a href="#Flutter-切圆角-ClipRRect" class="headerlink" title="Flutter 切圆角 ClipRRect"></a>Flutter 切圆角 ClipRRect</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ClipRRect</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://samingzhong.github.io/2022/08/25/Flutter%20%E5%BC%80%E5%8F%91Q&A/" data-id="cl7e3xws9000olu6963io1by8" data-title="Flutter 开发Q&amp;A" class="article-share-link">分享</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-Flutter学习开篇" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2022/08/24/Flutter%E5%AD%A6%E4%B9%A0%E5%BC%80%E7%AF%87/" class="article-date">
@@ -523,6 +582,10 @@
       <ul>
         
           <li>
+            <a href="/2022/08/31/bash-helper/">bash-helper</a>
+          </li>
+        
+          <li>
             <a href="/2022/08/29/bash%E8%84%9A%E6%9C%AC/bash%E8%84%9A%E6%9C%AC/">Bash脚本</a>
           </li>
         
@@ -536,10 +599,6 @@
         
           <li>
             <a href="/2022/08/28/App%E8%BF%90%E8%90%A5/%E5%85%B3%E9%94%AE%E7%BB%93%E8%AE%BA/">关键结论</a>
-          </li>
-        
-          <li>
-            <a href="/2022/08/28/product/product-life/">四大产品生命周期丨运营如何明确不同阶段的目标和效果</a>
           </li>
         
       </ul>

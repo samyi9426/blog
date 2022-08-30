@@ -77,6 +77,46 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-bash-helper" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/08/31/bash-helper/" class="article-date">
+  <time class="dt-published" datetime="2022-08-30T16:06:02.000Z" itemprop="datePublished">2022-08-31</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/08/31/bash-helper/">bash-helper</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+      <!-- Table of Contents -->
+      
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://samingzhong.github.io/2022/08/31/bash-helper/" data-id="cl7gdwrbw00006l0gdbxr6pfu" data-title="bash-helper" class="article-share-link">分享</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-bash脚本/bash脚本" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2022/08/29/bash%E8%84%9A%E6%9C%AC/bash%E8%84%9A%E6%9C%AC/" class="article-date">
@@ -102,7 +142,12 @@
       <!-- Table of Contents -->
       
         <p>Bash脚本是个人使用较多的脚本语言，记录下常见的需求以及解决方案。</p>
-<h3 id="Mac-OS-X-音量控制等-CSDN博客"><a href="#Mac-OS-X-音量控制等-CSDN博客" class="headerlink" title="Mac OS X: 音量控制等 - CSDN博客"></a><a target="_blank" rel="noopener" href="https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjnzurHr-v5AhVK4GEKHf3pAVwQFnoECBcQAQ&url=https://blog.csdn.net/cneducation/article/details/3899819&usg=AOvVaw2XzcrRS1CIM6CQZy7QUMJw">Mac OS X: 音量控制等 - CSDN博客</a></h3>
+<h3 id="Mac-OS-X-音量控制等-CSDN博客"><a href="#Mac-OS-X-音量控制等-CSDN博客" class="headerlink" title="Mac OS X: 音量控制等 - CSDN博客"></a><a target="_blank" rel="noopener" href="https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjnzurHr-v5AhVK4GEKHf3pAVwQFnoECBcQAQ&url=https://blog.csdn.net/cneducation/article/details/3899819&usg=AOvVaw2XzcrRS1CIM6CQZy7QUMJw">Mac OS X: 音量控制等 - CSDN博客</a></h3><h2 id="根据关键词kill掉进程"><a href="#根据关键词kill掉进程" class="headerlink" title="根据关键词kill掉进程"></a>根据关键词kill掉进程</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="comment"># ~/.my_batch_sh/others/kill_app_with_keyword.sh</span></span><br><span class="line"><span class="comment"># kill app with name</span></span><br><span class="line"></span><br><span class="line">app=<span class="variable">$1</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">get_app_full_path_with_keyWord</span></span>()&#123;</span><br><span class="line">	app=<span class="variable">$1</span></span><br><span class="line"></span><br><span class="line">	<span class="built_in">echo</span> $(ps -ef|grep <span class="variable">$app</span>|grep /Application|awk <span class="string">&#x27;&#123;print $8&#125;&#x27;</span>)</span><br><span class="line">	<span class="comment"># echo $(ps -ef|grep Android|grep /Application|awk &#x27;&#123;print $2&#125;&#x27;)</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">kill_app_with_keyword</span></span>()&#123;</span><br><span class="line">	app=<span class="variable">$1</span></span><br><span class="line">	ps -ef|grep <span class="variable">$app</span>|grep /Application|awk <span class="string">&#x27;&#123;print $2&#125;&#x27;</span>|xargs <span class="built_in">kill</span> -9</span><br><span class="line">	<span class="comment"># ps -ef|grep Android|grep /Application|awk &#x27;&#123;print $2&#125;&#x27;|xargs kill -9</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;killing <span class="subst">$(get_app_full_path_with_keyWord $app)</span>...&quot;</span></span><br><span class="line">kill_app_with_keyword <span class="variable">$app</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;job done!&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>然后可以这样调用：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"></span><br><span class="line">killer=~/.my_batch_sh/others/kill_app_with_keyword.sh</span><br><span class="line">app_keywords=(Android Xcode Typora Safari Chrome Music Termin Sub)</span><br><span class="line"><span class="comment"># Termin</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> app <span class="keyword">in</span> <span class="variable">$&#123;app_keywords[@]&#125;</span></span><br><span class="line"><span class="keyword">do</span></span><br><span class="line">  <span class="variable">$killer</span> <span class="variable">$app</span></span><br><span class="line"><span class="keyword">done</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
       
     </div>
     <footer class="article-footer">
@@ -579,8 +624,36 @@
 <li><strong>Alt + Enter&#x2F; Command + Enter</strong>：这使您可以轻松地包装和删除小部件以及在复杂的层次结构中交换小部件。要使用它，只需将光标指向小部件声明并按下按键即可提供一些选项。这有时感觉像是天赐之物。</li>
 <li><strong>DartFMT</strong>：dartfmt 格式化您的代码以保持干净的层次结构和缩进。在您不小心移动了几个括号后，它会使您的代码更漂亮。</li>
 </ol>
-<p>作者：大前端之旅<br>链接：<a target="_blank" rel="noopener" href="https://juejin.cn/post/6998684967668547620">https://juejin.cn/post/6998684967668547620</a><br>来源：稀土掘金<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
-<h2 id="Dart-语言"><a href="#Dart-语言" class="headerlink" title="Dart 语言"></a>Dart 语言</h2><h3 id="Dart开发的7个技巧"><a href="#Dart开发的7个技巧" class="headerlink" title="Dart开发的7个技巧"></a><a target="_blank" rel="noopener" href="https://juejin.cn/post/6999040234335764517">Dart开发的7个技巧</a></h3><h3 id="flutter开发常见的问题"><a href="#flutter开发常见的问题" class="headerlink" title="flutter开发常见的问题"></a><a target="_blank" rel="noopener" href="https://juejin.cn/post/6998684967668547620">flutter开发常见的问题</a></h3><h2 id="Flutter-Widgets"><a href="#Flutter-Widgets" class="headerlink" title="Flutter Widgets"></a>Flutter Widgets</h2><h2 id="状态管理"><a href="#状态管理" class="headerlink" title="状态管理"></a>状态管理</h2><h2 id="网络请求"><a href="#网络请求" class="headerlink" title="网络请求"></a>网络请求</h2><h2 id="页面导航"><a href="#页面导航" class="headerlink" title="页面导航"></a>页面导航</h2><h2 id="数据存储"><a href="#数据存储" class="headerlink" title="数据存储"></a>数据存储</h2><h2 id="动画"><a href="#动画" class="headerlink" title="动画"></a>动画</h2><h2 id="响应式编程"><a href="#响应式编程" class="headerlink" title="响应式编程"></a>响应式编程</h2>
+<p>链接：<a target="_blank" rel="noopener" href="https://juejin.cn/post/6998684967668547620">https://juejin.cn/post/6998684967668547620</a><br>来源：稀土掘金</p>
+<h3 id="Dart-点将台-package-包相关知识-掘金"><a href="#Dart-点将台-package-包相关知识-掘金" class="headerlink" title="Dart 点将台| package 包相关知识 - 掘金"></a><a target="_blank" rel="noopener" href="https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjT-5HMzev5AhW8plYBHaZyARYQFnoECAUQAQ&url=https://juejin.cn/post/6932640833929740296&usg=AOvVaw2Qlt7bV3uH2fPWnEz29qoG">Dart 点将台| package 包相关知识 - 掘金</a></h3><h2 id="Dart-语言"><a href="#Dart-语言" class="headerlink" title="Dart 语言"></a>Dart 语言</h2><p><a target="_blank" rel="noopener" href="https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjoxejH0-v5AhUjUfUHHR8YCxkQFnoECAYQAQ&url=https://blog.51cto.com/jianguo/4334685&usg=AOvVaw0PbGZsiw01Kqy1yWdd0hlP">每个Flutter 开发人员都应该知道的16 个Dart 技巧和窍门</a></p>
+<h3 id="Dart开发的7个技巧"><a href="#Dart开发的7个技巧" class="headerlink" title="Dart开发的7个技巧"></a><a target="_blank" rel="noopener" href="https://juejin.cn/post/6999040234335764517">Dart开发的7个技巧</a></h3><h4 id="需要同时执行多个Future吗？使用-Future-wait。"><a href="#需要同时执行多个Future吗？使用-Future-wait。" class="headerlink" title="需要同时执行多个Future吗？使用 Future.wait。"></a>需要同时执行多个Future吗？使用 Future.wait。</h4><h4 id="需要调用回调但前提是它不为空？使用“-call-”语法。"><a href="#需要调用回调但前提是它不为空？使用“-call-”语法。" class="headerlink" title="需要调用回调但前提是它不为空？使用“?.call()”语法。"></a>需要调用回调但前提是它不为空？使用“?.call()”语法。</h4><h4 id="需要以空安全的方式遍历map吗？使用-entries"><a href="#需要以空安全的方式遍历map吗？使用-entries" class="headerlink" title="需要以空安全的方式遍历map吗？使用.entries"></a>需要以空安全的方式遍历map吗？使用<code>.entries</code></h4><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> entry <span class="keyword">in</span> timeSpent.entries) &#123;</span><br><span class="line">  <span class="comment">// do something with keys and values</span></span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&#x27;<span class="subst">$&#123;entry.key&#125;</span>: <span class="subst">$&#123;entry.value&#125;</span>&#x27;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="flutter开发常见的问题"><a href="#flutter开发常见的问题" class="headerlink" title="flutter开发常见的问题"></a><a target="_blank" rel="noopener" href="https://juejin.cn/post/6998684967668547620">flutter开发常见的问题</a></h3><h5 id="对未使用的函数参数使用下划线"><a href="#对未使用的函数参数使用下划线" class="headerlink" title="对未使用的函数参数使用下划线"></a>对未使用的函数参数使用下划线</h5><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">ListView.builder(</span><br><span class="line">  itemBuilder: (_, __) =&gt; ListTile(</span><br><span class="line">    title: Text(<span class="string">&#x27;all the same&#x27;</span>),</span><br><span class="line">  ),</span><br><span class="line">  itemCount: <span class="number">10</span>,</span><br><span class="line">)	</span><br></pre></td></tr></table></figure>
+
+<p><em>注意：这两个参数是不同的 (<code>_</code>和<code>__</code>)，因为它们是<strong>单独的标识符</strong>。</em></p>
+<h4 id="需要一个只能实例化一次的类（又名单例）？使用带有私有构造函数的静态实例变量。"><a href="#需要一个只能实例化一次的类（又名单例）？使用带有私有构造函数的静态实例变量。" class="headerlink" title="需要一个只能实例化一次的类（又名单例）？使用带有私有构造函数的静态实例变量。"></a>需要一个只能实例化一次的类（又名单例）？使用带有私有构造函数的静态实例变量。</h4><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// file_system.dart</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">FileSystem</span> </span>&#123;</span><br><span class="line">  FileSystem._();</span><br><span class="line">  <span class="keyword">static</span> <span class="keyword">final</span> instance = FileSystem._();</span><br><span class="line">&#125;	</span><br></pre></td></tr></table></figure>
+
+<p>要在 Dart 中创建单例，您可以声明一个命名构造函数并使用<code>_</code>语法将其设为私有。</p>
+<p>然后，您可以使用它来创建类的一个静态最终实例。</p>
+<p>因此，其他文件中的任何代码都只能通过<code>instance</code>变量访问此类：</p>
+<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// some_other_file.dart</span></span><br><span class="line"><span class="keyword">final</span> fs = FileSystem.instance;</span><br><span class="line"><span class="comment">// do something with fs	</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="同步和异步生成器"><a href="#同步和异步生成器" class="headerlink" title="同步和异步生成器"></a><a target="_blank" rel="noopener" href="https://juejin.cn/post/6999408113942003726#heading-0">同步和异步生成器</a></h4><h3 id="Flutter开发中的一些小技巧整理-知乎专栏"><a href="#Flutter开发中的一些小技巧整理-知乎专栏" class="headerlink" title="Flutter开发中的一些小技巧整理 - 知乎专栏"></a><a target="_blank" rel="noopener" href="https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjoxejH0-v5AhUjUfUHHR8YCxkQFnoECAQQAQ&url=https://zhuanlan.zhihu.com/p/357234531&usg=AOvVaw2yo9n0F9sIKaTyhkdDRPw3">Flutter开发中的一些小技巧整理 - 知乎专栏</a></h3><h4 id="等符号妙用"><a href="#等符号妙用" class="headerlink" title="?? 等符号妙用"></a>?? 等符号妙用</h4><p>如果我们需要从一个对象取数据渲染，假如数据为<code>null</code>，那么就会报错一般的方法是判断</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">data.str == <span class="literal">null</span> ? <span class="string">&quot;&quot;</span> : data.str</span><br></pre></td></tr></table></figure>
+
+<p>但是在用了 dart 语法后，再这么写显得很low，并且也不够美观，dart 提供了 ?? 方法，其结果和上面的一样</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">data.str ?? <span class="string">&quot;&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>还有一个是<code>?.</code>它的意思是如果<code>data</code>为 null 就返回 null，不为 null 返回<code>data.str</code>结果</p>
+<p>假如有多级对象嵌套，如果不做判空处理那么 组件会报错，一般是在进行网络请求后渲染数据，但是在更新数据前我们不想去做 loading 处理</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Text(data?.info?.name ?? <span class="string">&quot;&quot;</span>);</span><br><span class="line"><span class="comment">//相当于</span></span><br><span class="line">Text(data != <span class="literal">null</span> &amp;&amp; data.info != <span class="literal">null</span> &amp;&amp; data.info.name != <span class="literal">null</span></span><br><span class="line">                                ? data.info.name</span><br><span class="line">                                : <span class="string">&quot;&quot;</span>),</span><br></pre></td></tr></table></figure>
+
+<p>这样写是不是代码简洁了很多？</p>
+<h2 id="Flutter-Widgets"><a href="#Flutter-Widgets" class="headerlink" title="Flutter Widgets"></a>Flutter Widgets</h2><h2 id="状态管理"><a href="#状态管理" class="headerlink" title="状态管理"></a>状态管理</h2><h2 id="网络请求"><a href="#网络请求" class="headerlink" title="网络请求"></a>网络请求</h2><h2 id="页面导航"><a href="#页面导航" class="headerlink" title="页面导航"></a>页面导航</h2><h2 id="数据存储"><a href="#数据存储" class="headerlink" title="数据存储"></a>数据存储</h2><h2 id="动画"><a href="#动画" class="headerlink" title="动画"></a>动画</h2><h2 id="响应式编程"><a href="#响应式编程" class="headerlink" title="响应式编程"></a>响应式编程</h2>
       
     </div>
     <footer class="article-footer">
@@ -683,63 +756,6 @@
 
 
   
-    <article id="post-Flutter 开发Q&amp;A" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/08/25/Flutter%20%E5%BC%80%E5%8F%91Q&A/" class="article-date">
-  <time class="dt-published" datetime="2022-08-25T05:52:03.000Z" itemprop="datePublished">2022-08-25</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/08/25/Flutter%20%E5%BC%80%E5%8F%91Q&A/">Flutter 开发Q&amp;A</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-      <!-- Table of Contents -->
-      
-        <h3 id="Everything-is-a-Widget"><a href="#Everything-is-a-Widget" class="headerlink" title="Everything is a Widget"></a>Everything is a Widget</h3><p>一切皆组件</p>
-<h3 id="Flutter转场卡顿"><a href="#Flutter转场卡顿" class="headerlink" title="Flutter转场卡顿"></a>Flutter转场卡顿</h3><ol>
-<li><p>转场动画加上页面初始化&#x2F;销毁中较复杂的操作（一般涉及到IO或者比较消耗CPU的计算），可能会引起页面卡顿。</p>
-<p>解决方案</p>
-<blockquote>
-<ol>
-<li>退出页面卡顿：找出导致卡顿的代码，并做异步线程调用或者延迟调用，或者调用后，延迟退出页面。</li>
-<li>进入页面卡顿：找出导致卡顿的代码，并做异步线程调用或者延迟调用，相关数据等待可以加loading。</li>
-</ol>
-</blockquote>
-</li>
-<li><p>动画卡顿</p>
-<ol>
-<li>当前机器发热严重，CPU&#x2F;GPU处于降频期间。</li>
-</ol>
-</li>
-</ol>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://samingzhong.github.io/2022/08/25/Flutter%20%E5%BC%80%E5%8F%91Q&A/" data-id="cl7e3xws9000olu6963io1by8" data-title="Flutter 开发Q&amp;A" class="article-share-link">分享</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
 
 
   <nav id="page-nav">
@@ -790,6 +806,10 @@
       <ul>
         
           <li>
+            <a href="/2022/08/31/bash-helper/">bash-helper</a>
+          </li>
+        
+          <li>
             <a href="/2022/08/29/bash%E8%84%9A%E6%9C%AC/bash%E8%84%9A%E6%9C%AC/">Bash脚本</a>
           </li>
         
@@ -803,10 +823,6 @@
         
           <li>
             <a href="/2022/08/28/App%E8%BF%90%E8%90%A5/%E5%85%B3%E9%94%AE%E7%BB%93%E8%AE%BA/">关键结论</a>
-          </li>
-        
-          <li>
-            <a href="/2022/08/28/product/product-life/">四大产品生命周期丨运营如何明确不同阶段的目标和效果</a>
           </li>
         
       </ul>
