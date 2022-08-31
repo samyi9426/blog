@@ -4,18 +4,20 @@
   <meta charset="utf-8">
   
   
-  <title>bash-helper | </title>
+  <title>App调研 | </title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Think more, code less.">
+  <meta name="description" content="先功能后设计，借力GitHub产品最核心的东西应该是：高效解决用户痛点。一般来说，各行业细分的头部产品几乎已被大小厂占领，我的想法主要有几点，无论哪点，切记尽可能按照先功能、后设计的思路：  先功能。是要求尽可能借助开源力量，把你需要的功能封装好，然后供业务层调用。 后设计。UI、交互、动画这些，借助开源组件，迅速完成。  独立产品方向思路方向一：红海产品。 如果做同类产品，那么就做区别化。别人收">
 <meta property="og:type" content="article">
-<meta property="og:title" content="bash-helper">
-<meta property="og:url" content="https://samingzhong.github.io/2022/08/31/bash-helper/index.html">
+<meta property="og:title" content="App调研">
+<meta property="og:url" content="https://samingzhong.github.io/2022/08/30/App%E8%B0%83%E7%A0%94/App%E8%B0%83%E7%A0%94/index.html">
 <meta property="og:site_name">
-<meta property="og:description" content="Think more, code less.">
+<meta property="og:description" content="先功能后设计，借力GitHub产品最核心的东西应该是：高效解决用户痛点。一般来说，各行业细分的头部产品几乎已被大小厂占领，我的想法主要有几点，无论哪点，切记尽可能按照先功能、后设计的思路：  先功能。是要求尽可能借助开源力量，把你需要的功能封装好，然后供业务层调用。 后设计。UI、交互、动画这些，借助开源组件，迅速完成。  独立产品方向思路方向一：红海产品。 如果做同类产品，那么就做区别化。别人收">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-08-30T16:06:02.000Z">
-<meta property="article:modified_time" content="2022-08-30T16:06:38.847Z">
+<meta property="article:published_time" content="2022-08-30T02:05:22.000Z">
+<meta property="article:modified_time" content="2022-08-31T02:15:15.495Z">
 <meta property="article:author" content="SAM">
+<meta property="article:tag" content="App">
+<meta property="article:tag" content="产品开发">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="" type="application/atom+xml">
@@ -77,10 +79,10 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-bash-helper" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-App调研/App调研" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2022/08/31/bash-helper/" class="article-date">
-  <time class="dt-published" datetime="2022-08-30T16:06:02.000Z" itemprop="datePublished">2022-08-31</time>
+    <a href="/2022/08/30/App%E8%B0%83%E7%A0%94/App%E8%B0%83%E7%A0%94/" class="article-date">
+  <time class="dt-published" datetime="2022-08-30T02:05:22.000Z" itemprop="datePublished">2022-08-30</time>
 </a>
     
   </div>
@@ -91,7 +93,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      bash-helper
+      App调研
     </h1>
   
 
@@ -101,24 +103,82 @@
       
       <!-- Table of Contents -->
       
-        
+        <div id="toc" class="toc-article">
+          <strong class="toc-title">文章目录</strong>
+          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%88%E5%8A%9F%E8%83%BD%E5%90%8E%E8%AE%BE%E8%AE%A1%EF%BC%8C%E5%80%9F%E5%8A%9BGitHub"><span class="toc-number">1.</span> <span class="toc-text">先功能后设计，借力GitHub</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%8B%AC%E7%AB%8B%E4%BA%A7%E5%93%81%E6%96%B9%E5%90%91%E6%80%9D%E8%B7%AF"><span class="toc-number">2.</span> <span class="toc-text">独立产品方向思路</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#App-Store%E4%BA%A7%E5%93%81%E5%88%86%E6%9E%90"><span class="toc-number">3.</span> <span class="toc-text">App Store产品分析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B7%A5%E5%85%B7%E7%B1%BB"><span class="toc-number">3.1.</span> <span class="toc-text">工具类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%AE%E5%8A%A9%E7%94%A8%E6%88%B7%E6%8F%90%E5%8D%87%E8%87%AA%E8%BA%AB%E7%9A%84%E4%BA%A7%E5%93%81"><span class="toc-number">3.2.</span> <span class="toc-text">帮助用户提升自身的产品</span></a></li></ol></li></ol>
+        </div>
+      
+        <h2 id="先功能后设计，借力GitHub"><a href="#先功能后设计，借力GitHub" class="headerlink" title="先功能后设计，借力GitHub"></a>先功能后设计，借力GitHub</h2><p>产品最核心的东西应该是：高效解决用户痛点。一般来说，各行业细分的头部产品几乎已被大小厂占领，我的想法主要有几点，无论哪点，切记尽可能按照先功能、后设计的思路：</p>
+<ul>
+<li>先功能。是要求尽可能借助开源力量，把你需要的功能封装好，然后供业务层调用。</li>
+<li>后设计。UI、交互、动画这些，借助开源组件，迅速完成。</li>
+</ul>
+<h2 id="独立产品方向思路"><a href="#独立产品方向思路" class="headerlink" title="独立产品方向思路"></a>独立产品方向思路</h2><p>方向一：红海产品。</p>
+<p>如果做同类产品，那么就做区别化。别人收费你免费，别人功能ABC、你功能ABCDE，价格、功能都占优势，相对有出路些。</p>
+<p>方向二：做流量边缘的产品。</p>
+<ul>
+<li><p>导购、比价App。用户通过你的App跳转完成订单，App收取提成，这就有点类似网络导购员。核心在于，导购内容，以及比价。</p>
+</li>
+<li><p>视频类App边缘产品：视频处理技术门槛太高？</p>
+<ul>
+<li><p>头部App：剪映、必剪、泼辣xx。</p>
+</li>
+<li><p>核心技术：视频处理。<a target="_blank" rel="noopener" href="https://github.com/FFmpeg/FFmpeg">FFmpeg</a>（音、视频处理） <a target="_blank" rel="noopener" href="https://github.com/bilibili/ijkplayer">ijkplayer</a>（播放器） <a target="_blank" rel="noopener" href="https://github.com/BradLarson/GPUImage">GPUImage</a>（滤镜，iOS）</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="App-Store产品分析"><a href="#App-Store产品分析" class="headerlink" title="App Store产品分析"></a>App Store产品分析</h2><p>独立制作的话，产品方向有以下几个方向可以考虑。看App Store的排行榜，能分析出一些东西。</p>
+<h3 id="工具类"><a href="#工具类" class="headerlink" title="工具类"></a>工具类</h3><ul>
+<li><p>浏览器。（Alook：无广告、无推送、无新闻。视频投屏、下载管理、看图模式、只能拼页、电子书阅读。）</p>
+</li>
+<li><p>时间规划局。倒计时、提醒事项。</p>
+</li>
+<li><p>短信拦截。（熊猫吃短信：离线拦截、机器学习、简单开启。已拦截短信分组。短信狗：自定义过滤，在线模型更新）</p>
+</li>
+<li><p>播放器。（全格式，播放电脑视频）</p>
+</li>
+<li><p>剪切板拓展。（Pin：小组件、文本分词、快捷动作、自定义设置）</p>
+</li>
+</ul>
+<h3 id="帮助用户提升自身的产品"><a href="#帮助用户提升自身的产品" class="headerlink" title="帮助用户提升自身的产品"></a>帮助用户提升自身的产品</h3><ul>
+<li>效率类。<ul>
+<li>番茄时间。</li>
+<li>清单备忘提醒。</li>
+</ul>
+</li>
+<li>财务。</li>
+<li>健康。Keep</li>
+</ul>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://samingzhong.github.io/2022/08/31/bash-helper/" data-id="cl7gdwc0i0000x90g3bqpaxrs" data-title="bash-helper" class="article-share-link">分享</a>
+      <a data-url="https://samingzhong.github.io/2022/08/30/App%E8%B0%83%E7%A0%94/App%E8%B0%83%E7%A0%94/" data-id="cl7gzl4it0003mk695svf7wyo" data-title="App调研" class="article-share-link">分享</a>
       
       
       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/App/" rel="tag">App</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%BA%A7%E5%93%81%E5%BC%80%E5%8F%91/" rel="tag">产品开发</a></li></ul>
+
     </footer>
   </div>
   
     
 <nav id="article-nav">
   
+    <a href="/2022/08/30/22-9%E6%9C%88%E8%AE%A1%E5%88%92/22-9%E6%9C%88%E8%AE%A1%E5%88%92/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">前一篇</strong>
+      <div class="article-nav-title">
+        
+          22-9
+        
+      </div>
+    </a>
   
-    <a href="/2022/08/30/10%E6%9C%88/" id="article-nav-older" class="article-nav-link-wrap">
+  
+    <a href="/2022/08/30/App%E8%B0%83%E7%A0%94/RSS%E9%98%85%E8%AF%BB%E5%99%A8/RSS%E9%98%85%E8%AF%BB%E5%99%A8/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">后一篇</strong>
-      <div class="article-nav-title">10月</div>
+      <div class="article-nav-title">RSS阅读器</div>
     </a>
   
 </nav>

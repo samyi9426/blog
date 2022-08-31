@@ -30,11 +30,85 @@
   </entry>
   
   <entry>
+    <title>10月</title>
+    <link href="https://samingzhong.github.io/2022/08/30/10%E6%9C%88/"/>
+    <id>https://samingzhong.github.io/2022/08/30/10%E6%9C%88/</id>
+    <published>2022-08-30T11:41:11.000Z</published>
+    <updated>2022-08-31T02:15:15.494Z</updated>
+    
+    
+    
+    
+    
+    <category term="未定义" scheme="https://samingzhong.github.io/tags/%E6%9C%AA%E5%AE%9A%E4%B9%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>22-9</title>
+    <link href="https://samingzhong.github.io/2022/08/30/22-9%E6%9C%88%E8%AE%A1%E5%88%92/22-9%E6%9C%88%E8%AE%A1%E5%88%92/"/>
+    <id>https://samingzhong.github.io/2022/08/30/22-9%E6%9C%88%E8%AE%A1%E5%88%92/22-9%E6%9C%88%E8%AE%A1%E5%88%92/</id>
+    <published>2022-08-30T10:00:51.000Z</published>
+    <updated>2022-08-31T02:15:15.495Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><h3 id="工作技能"><a href="#工作技能" class="headerlink" title="工作技能"></a>工作技能</h3><h4 id="Flutter"><a href="#Flutter" class="headerlink" title="Flutter"></a>Flutter</h4><ul><li><p>掌握Flutter基础开发、熟悉各类型UI搭建、响应式框架provider、以及动画。</p><p>参考资料 <strong><a href="https://book.flutterchina.club/">《Flutter实战·第二版》</a>、<a href="https://dart.cn/">Dart</a>、<a href="https://flutter.cn/about">关于 Flutter 文档中文版</a></strong></p></li><li><p>iOS原生开发技能</p><ul><li>原生App中，引入Flutter widget。</li></ul></li><li></li></ul><h2 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h2><ul><li>给孩子过生日，买个用心的礼物。</li></ul><hr><h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><h3 id="工作技能-1"><a href="#工作技能-1" class="headerlink" title="工作技能"></a>工作技能</h3><h3 id="生活-1"><a href="#生活-1" class="headerlink" title="生活"></a>生活</h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;计划&quot;&gt;&lt;a href=&quot;#计划&quot; class=&quot;headerlink&quot; title=&quot;计划&quot;&gt;&lt;/a&gt;计划&lt;/h2&gt;&lt;h3 id=&quot;工作技能&quot;&gt;&lt;a href=&quot;#工作技能&quot; class=&quot;headerlink&quot; title=&quot;工作技能&quot;&gt;&lt;/a&gt;工作技能&lt;/h</summary>
+      
+    
+    
+    
+    
+    <category term="计划&amp;完成" scheme="https://samingzhong.github.io/tags/%E8%AE%A1%E5%88%92-%E5%AE%8C%E6%88%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>App调研</title>
+    <link href="https://samingzhong.github.io/2022/08/30/App%E8%B0%83%E7%A0%94/App%E8%B0%83%E7%A0%94/"/>
+    <id>https://samingzhong.github.io/2022/08/30/App%E8%B0%83%E7%A0%94/App%E8%B0%83%E7%A0%94/</id>
+    <published>2022-08-30T02:05:22.000Z</published>
+    <updated>2022-08-31T02:15:15.495Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="先功能后设计，借力GitHub"><a href="#先功能后设计，借力GitHub" class="headerlink" title="先功能后设计，借力GitHub"></a>先功能后设计，借力GitHub</h2><p>产品最核心的东西应该是：高效解决用户痛点。一般来说，各行业细分的头部产品几乎已被大小厂占领，我的想法主要有几点，无论哪点，切记尽可能按照先功能、后设计的思路：</p><ul><li>先功能。是要求尽可能借助开源力量，把你需要的功能封装好，然后供业务层调用。</li><li>后设计。UI、交互、动画这些，借助开源组件，迅速完成。</li></ul><h2 id="独立产品方向思路"><a href="#独立产品方向思路" class="headerlink" title="独立产品方向思路"></a>独立产品方向思路</h2><p>方向一：红海产品。</p><p>如果做同类产品，那么就做区别化。别人收费你免费，别人功能ABC、你功能ABCDE，价格、功能都占优势，相对有出路些。</p><p>方向二：做流量边缘的产品。</p><ul><li><p>导购、比价App。用户通过你的App跳转完成订单，App收取提成，这就有点类似网络导购员。核心在于，导购内容，以及比价。</p></li><li><p>视频类App边缘产品：视频处理技术门槛太高？</p><ul><li><p>头部App：剪映、必剪、泼辣xx。</p></li><li><p>核心技术：视频处理。<a href="https://github.com/FFmpeg/FFmpeg">FFmpeg</a>（音、视频处理） <a href="https://github.com/bilibili/ijkplayer">ijkplayer</a>（播放器） <a href="https://github.com/BradLarson/GPUImage">GPUImage</a>（滤镜，iOS）</p></li></ul></li></ul><h2 id="App-Store产品分析"><a href="#App-Store产品分析" class="headerlink" title="App Store产品分析"></a>App Store产品分析</h2><p>独立制作的话，产品方向有以下几个方向可以考虑。看App Store的排行榜，能分析出一些东西。</p><h3 id="工具类"><a href="#工具类" class="headerlink" title="工具类"></a>工具类</h3><ul><li><p>浏览器。（Alook：无广告、无推送、无新闻。视频投屏、下载管理、看图模式、只能拼页、电子书阅读。）</p></li><li><p>时间规划局。倒计时、提醒事项。</p></li><li><p>短信拦截。（熊猫吃短信：离线拦截、机器学习、简单开启。已拦截短信分组。短信狗：自定义过滤，在线模型更新）</p></li><li><p>播放器。（全格式，播放电脑视频）</p></li><li><p>剪切板拓展。（Pin：小组件、文本分词、快捷动作、自定义设置）</p></li></ul><h3 id="帮助用户提升自身的产品"><a href="#帮助用户提升自身的产品" class="headerlink" title="帮助用户提升自身的产品"></a>帮助用户提升自身的产品</h3><ul><li>效率类。<ul><li>番茄时间。</li><li>清单备忘提醒。</li></ul></li><li>财务。</li><li>健康。Keep</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;先功能后设计，借力GitHub&quot;&gt;&lt;a href=&quot;#先功能后设计，借力GitHub&quot; class=&quot;headerlink&quot; title=&quot;先功能后设计，借力GitHub&quot;&gt;&lt;/a&gt;先功能后设计，借力GitHub&lt;/h2&gt;&lt;p&gt;产品最核心的东西应该是：高效解决用户</summary>
+      
+    
+    
+    
+    
+    <category term="App" scheme="https://samingzhong.github.io/tags/App/"/>
+    
+    <category term="产品开发" scheme="https://samingzhong.github.io/tags/%E4%BA%A7%E5%93%81%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>RSS阅读器</title>
+    <link href="https://samingzhong.github.io/2022/08/30/App%E8%B0%83%E7%A0%94/RSS%E9%98%85%E8%AF%BB%E5%99%A8/RSS%E9%98%85%E8%AF%BB%E5%99%A8/"/>
+    <id>https://samingzhong.github.io/2022/08/30/App%E8%B0%83%E7%A0%94/RSS%E9%98%85%E8%AF%BB%E5%99%A8/RSS%E9%98%85%E8%AF%BB%E5%99%A8/</id>
+    <published>2022-08-30T02:04:27.000Z</published>
+    <updated>2022-08-31T02:15:15.495Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Bash脚本</title>
     <link href="https://samingzhong.github.io/2022/08/29/bash%E8%84%9A%E6%9C%AC/bash%E8%84%9A%E6%9C%AC/"/>
     <id>https://samingzhong.github.io/2022/08/29/bash%E8%84%9A%E6%9C%AC/bash%E8%84%9A%E6%9C%AC/</id>
     <published>2022-08-29T06:03:12.000Z</published>
-    <updated>2022-08-30T16:09:39.082Z</updated>
+    <updated>2022-08-31T02:14:36.114Z</updated>
     
     <content type="html"><![CDATA[<p>Bash脚本是个人使用较多的脚本语言，记录下常见的需求以及解决方案。</p><h3 id="Mac-OS-X-音量控制等-CSDN博客"><a href="#Mac-OS-X-音量控制等-CSDN博客" class="headerlink" title="Mac OS X: 音量控制等 - CSDN博客"></a><a href="https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjnzurHr-v5AhVK4GEKHf3pAVwQFnoECBcQAQ&url=https://blog.csdn.net/cneducation/article/details/3899819&usg=AOvVaw2XzcrRS1CIM6CQZy7QUMJw">Mac OS X: 音量控制等 - CSDN博客</a></h3><h2 id="根据关键词kill掉进程"><a href="#根据关键词kill掉进程" class="headerlink" title="根据关键词kill掉进程"></a>根据关键词kill掉进程</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="comment"># ~/.my_batch_sh/others/kill_app_with_keyword.sh</span></span><br><span class="line"><span class="comment"># kill app with name</span></span><br><span class="line"></span><br><span class="line">app=<span class="variable">$1</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">get_app_full_path_with_keyWord</span></span>()&#123;</span><br><span class="line">app=<span class="variable">$1</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> $(ps -ef|grep <span class="variable">$app</span>|grep /Application|awk <span class="string">&#x27;&#123;print $8&#125;&#x27;</span>)</span><br><span class="line"><span class="comment"># echo $(ps -ef|grep Android|grep /Application|awk &#x27;&#123;print $2&#125;&#x27;)</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">kill_app_with_keyword</span></span>()&#123;</span><br><span class="line">app=<span class="variable">$1</span></span><br><span class="line">ps -ef|grep <span class="variable">$app</span>|grep /Application|awk <span class="string">&#x27;&#123;print $2&#125;&#x27;</span>|xargs <span class="built_in">kill</span> -9</span><br><span class="line"><span class="comment"># ps -ef|grep Android|grep /Application|awk &#x27;&#123;print $2&#125;&#x27;|xargs kill -9</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;killing <span class="subst">$(get_app_full_path_with_keyWord $app)</span>...&quot;</span></span><br><span class="line">kill_app_with_keyword <span class="variable">$app</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;job done!&quot;</span></span><br></pre></td></tr></table></figure><p>然后可以这样调用：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"></span><br><span class="line">killer=~/.my_batch_sh/others/kill_app_with_keyword.sh</span><br><span class="line">app_keywords=(Android Xcode Typora Safari Chrome Music Termin Sub)</span><br><span class="line"><span class="comment"># Termin</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> app <span class="keyword">in</span> <span class="variable">$&#123;app_keywords[@]&#125;</span></span><br><span class="line"><span class="keyword">do</span></span><br><span class="line">  <span class="variable">$killer</span> <span class="variable">$app</span></span><br><span class="line"><span class="keyword">done</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
     
