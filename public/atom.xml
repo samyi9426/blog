@@ -6,7 +6,7 @@
   <link href="https://samingzhong.github.io/atom.xml" rel="self"/>
   
   <link href="https://samingzhong.github.io/"/>
-  <updated>2022-08-30T16:06:38.847Z</updated>
+  <updated>2022-08-31T02:18:29.010Z</updated>
   <id>https://samingzhong.github.io/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://samingzhong.github.io/2022/08/31/test/"/>
+    <id>https://samingzhong.github.io/2022/08/31/test/</id>
+    <published>2022-08-31T02:18:29.000Z</published>
+    <updated>2022-08-31T02:18:29.010Z</updated>
+    
+    
+    
+    
+    
+    <category term="未定义" scheme="https://samingzhong.github.io/tags/%E6%9C%AA%E5%AE%9A%E4%B9%89/"/>
+    
+  </entry>
   
   <entry>
     <title>bash-helper</title>
