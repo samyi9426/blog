@@ -105,3 +105,12 @@ INFO  Deploy done: git
 2022-09-01 20:00:00 running script...
 部署...
 备份...
+[master d80c503] backup my blog
+ 7 files changed, 64 insertions(+), 19 deletions(-)
+ rewrite db.json (79%)
+ delete mode 100644 "source/_posts/10\346\234\210.md"
+ rename source/_posts/bash-helper.md => "source/_posts/bash\350\204\232\346\234\254/bash-helper.md" (100%)
+ delete mode 100644 source/_posts/test.md
+ create mode 100644 source/_posts/xcode-error.md
+----------------- end ------------------------
+

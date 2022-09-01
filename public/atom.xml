@@ -6,7 +6,7 @@
   <link href="https://samingzhong.github.io/atom.xml" rel="self"/>
   
   <link href="https://samingzhong.github.io/"/>
-  <updated>2022-08-31T02:18:29.010Z</updated>
+  <updated>2022-09-01T10:41:50.616Z</updated>
   <id>https://samingzhong.github.io/</id>
   
   <author>
@@ -17,45 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test</title>
-    <link href="https://samingzhong.github.io/2022/08/31/test/"/>
-    <id>https://samingzhong.github.io/2022/08/31/test/</id>
-    <published>2022-08-31T02:18:29.000Z</published>
-    <updated>2022-08-31T02:18:29.010Z</updated>
+    <title>xcode-error</title>
+    <link href="https://samingzhong.github.io/2022/09/01/xcode-error/"/>
+    <id>https://samingzhong.github.io/2022/09/01/xcode-error/</id>
+    <published>2022-09-01T09:07:01.000Z</published>
+    <updated>2022-09-01T10:41:50.616Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>CodeSign &#x2F;Users&#x2F;samingzhong&#x2F;Library&#x2F;Developer&#x2F;Xcode&#x2F;DerivedData&#x2F;hello_test-fylaetanydqyjmcztsjbbxlarfcn&#x2F;Build&#x2F;Products&#x2F;Debug-iphoneos&#x2F;hello_test.app (in target ‘hello_test’ from project ‘hello_test’)</p><p>  cd &#x2F;Users&#x2F;samingzhong&#x2F;code&#x2F;hello_test</p><p>export CODESIGN_ALLOCATE=&#x2F;Applications&#x2F;Xcode.app&#x2F;Contents&#x2F;Developer&#x2F;Toolchains&#x2F;XcodeDefault.xctoolchain&#x2F;usr&#x2F;bin&#x2F;codesign_allocate</p><p>  Signing Identity:   “Apple Development: xm zhong (3P4U259K9P)”</p><p>  Provisioning Profile: “iOS Team Provisioning Profile: *”</p><p>​             (854064ad-8cfb-4876-9d0d-26e114399cc1)</p><p>  &#x2F;usr&#x2F;bin&#x2F;codesign –force –sign 522AD5C72D044BF491247B571FB17CF939946BB2 –entitlements &#x2F;Users&#x2F;samingzhong&#x2F;Library&#x2F;Developer&#x2F;Xcode&#x2F;DerivedData&#x2F;hello_test-fylaetanydqyjmcztsjbbxlarfcn&#x2F;Build&#x2F;Intermediates.noindex&#x2F;hello_test.build&#x2F;Debug-iphoneos&#x2F;hello_test.build&#x2F;hello_test.app.xcent –timestamp=none –generate-entitlement-der &#x2F;Users&#x2F;samingzhong&#x2F;Library&#x2F;Developer&#x2F;Xcode&#x2F;DerivedData&#x2F;hello_test-fylaetanydqyjmcztsjbbxlarfcn&#x2F;Build&#x2F;Products&#x2F;Debug-iphoneos&#x2F;hello_test.app</p><p>Warning: unable to build chain to self-signed root for signer “Apple Development: xm zhong (3P4U259K9P)”</p><p>&#x2F;Users&#x2F;samingzhong&#x2F;Library&#x2F;Developer&#x2F;Xcode&#x2F;DerivedData&#x2F;hello_test-fylaetanydqyjmcztsjbbxlarfcn&#x2F;Build&#x2F;Products&#x2F;Debug-iphoneos&#x2F;hello_test.app: errSecInternalComponent</p><p>Command CodeSign failed with a nonzero exit code</p><h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><p>删掉本地的证书，让Xcode重新生成相关证书文件。</p><p>晋升答辩注意事项</p><p>重方案轻细节。不会问业务。定位问题、解决问题思路。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;CodeSign &amp;#x2F;Users&amp;#x2F;samingzhong&amp;#x2F;Library&amp;#x2F;Developer&amp;#x2F</summary>
+      
     
     
     
     
-    
-    <category term="未定义" scheme="https://samingzhong.github.io/tags/%E6%9C%AA%E5%AE%9A%E4%B9%89/"/>
+    <category term="Xcode" scheme="https://samingzhong.github.io/tags/Xcode/"/>
     
   </entry>
   
   <entry>
     <title>bash-helper</title>
-    <link href="https://samingzhong.github.io/2022/08/31/bash-helper/"/>
-    <id>https://samingzhong.github.io/2022/08/31/bash-helper/</id>
+    <link href="https://samingzhong.github.io/2022/08/31/bash%E8%84%9A%E6%9C%AC/bash-helper/"/>
+    <id>https://samingzhong.github.io/2022/08/31/bash%E8%84%9A%E6%9C%AC/bash-helper/</id>
     <published>2022-08-30T16:06:02.000Z</published>
-    <updated>2022-08-30T16:06:38.847Z</updated>
+    <updated>2022-08-31T02:14:36.113Z</updated>
     
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>10月</title>
-    <link href="https://samingzhong.github.io/2022/08/30/10%E6%9C%88/"/>
-    <id>https://samingzhong.github.io/2022/08/30/10%E6%9C%88/</id>
-    <published>2022-08-30T11:41:11.000Z</published>
-    <updated>2022-08-31T02:15:15.494Z</updated>
-    
-    
-    
-    
-    
-    <category term="未定义" scheme="https://samingzhong.github.io/tags/%E6%9C%AA%E5%AE%9A%E4%B9%89/"/>
     
   </entry>
   
@@ -64,20 +56,24 @@
     <link href="https://samingzhong.github.io/2022/08/30/22-9%E6%9C%88%E8%AE%A1%E5%88%92/22-9%E6%9C%88%E8%AE%A1%E5%88%92/"/>
     <id>https://samingzhong.github.io/2022/08/30/22-9%E6%9C%88%E8%AE%A1%E5%88%92/22-9%E6%9C%88%E8%AE%A1%E5%88%92/</id>
     <published>2022-08-30T10:00:51.000Z</published>
-    <updated>2022-08-31T02:15:15.495Z</updated>
+    <updated>2022-09-01T06:11:43.861Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><h3 id="工作技能"><a href="#工作技能" class="headerlink" title="工作技能"></a>工作技能</h3><h4 id="Flutter"><a href="#Flutter" class="headerlink" title="Flutter"></a>Flutter</h4><ul><li><p>掌握Flutter基础开发、熟悉各类型UI搭建、响应式框架provider、以及动画。</p><p>参考资料 <strong><a href="https://book.flutterchina.club/">《Flutter实战·第二版》</a>、<a href="https://dart.cn/">Dart</a>、<a href="https://flutter.cn/about">关于 Flutter 文档中文版</a></strong></p></li><li><p>iOS原生开发技能</p><ul><li>原生App中，引入Flutter widget。</li></ul></li><li></li></ul><h2 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h2><ul><li>给孩子过生日，买个用心的礼物。</li></ul><hr><h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><h3 id="工作技能-1"><a href="#工作技能-1" class="headerlink" title="工作技能"></a>工作技能</h3><h3 id="生活-1"><a href="#生活-1" class="headerlink" title="生活"></a>生活</h3>]]></content>
+    <content type="html"><![CDATA[<h2 id="规划"><a href="#规划" class="headerlink" title="规划"></a>规划</h2><p>总结并针对性的提升Flutter技能、iOS技能。</p><p>思考：如果失业了或者不想打工，如何进行自己的事业。</p><p>目前比较重要的计划：</p><ul><li>攒钱。目标（20w），用户抵御失业风险。</li><li>Flutter技能、iOS高级开发技能（提高开发效率，代码复用，CI等）</li></ul><h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><h3 id="工作技能"><a href="#工作技能" class="headerlink" title="工作技能"></a>工作技能</h3><h4 id="Flutter"><a href="#Flutter" class="headerlink" title="Flutter"></a>Flutter</h4><ul><li><p>掌握Flutter基础开发、熟悉各类型UI搭建、响应式框架provider、以及动画。</p><p>参考资料 <strong><a href="https://book.flutterchina.club/">《Flutter实战·第二版》</a>、<a href="https://dart.cn/">Dart</a>、<a href="https://flutter.cn/about">关于 Flutter 文档中文版</a></strong></p></li><li><p>iOS原生开发技能</p><ul><li>原生App中，引入Flutter widget。</li></ul></li></ul><h2 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h2><ul><li>给孩子过生日，买个用心的礼物。</li></ul><hr><h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><h3 id="工作技能-1"><a href="#工作技能-1" class="headerlink" title="工作技能"></a>工作技能</h3><h3 id="生活-1"><a href="#生活-1" class="headerlink" title="生活"></a>生活</h3>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;计划&quot;&gt;&lt;a href=&quot;#计划&quot; class=&quot;headerlink&quot; title=&quot;计划&quot;&gt;&lt;/a&gt;计划&lt;/h2&gt;&lt;h3 id=&quot;工作技能&quot;&gt;&lt;a href=&quot;#工作技能&quot; class=&quot;headerlink&quot; title=&quot;工作技能&quot;&gt;&lt;/a&gt;工作技能&lt;/h</summary>
+    <summary type="html">&lt;h2 id=&quot;规划&quot;&gt;&lt;a href=&quot;#规划&quot; class=&quot;headerlink&quot; title=&quot;规划&quot;&gt;&lt;/a&gt;规划&lt;/h2&gt;&lt;p&gt;总结并针对性的提升Flutter技能、iOS技能。&lt;/p&gt;
+&lt;p&gt;思考：如果失业了或者不想打工，如何进行自己的事业。&lt;/p&gt;
+&lt;p&gt;目前比较</summary>
       
     
     
     
     
     <category term="计划&amp;完成" scheme="https://samingzhong.github.io/tags/%E8%AE%A1%E5%88%92-%E5%AE%8C%E6%88%90/"/>
+    
+    <category term="职业规划" scheme="https://samingzhong.github.io/tags/%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92/"/>
     
   </entry>
   
