@@ -44,3 +44,7 @@ Command CodeSign failed with a nonzero exit code
 晋升答辩注意事项
 
 重方案轻细节。不会问业务。定位问题、解决问题思路。
+
+
+
+todo list
