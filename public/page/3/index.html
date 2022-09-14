@@ -4,71 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>一款APP设计的从0到1之：iOS篇（精华版） | </title>
+  <title></title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="很多时候，我们都忙碌在每天的撸图和改稿中，很少的去整理归纳结和思考工作的一些问题和方法，善于总结反思才能达到事半功倍的效果。今天U妹在这里将自己在设计中的一些经验和技巧分享给小伙伴们，这篇文章集合了前面的6篇精华，希望可以给你一定的帮助。  目前在行业里，关于iOS的设计规范也是层次不齐，很多都还停留在6的设备和ios 9的系统之上，而现在最新的是iphone 7和iOS 10了（更新换代真的">
-<meta property="og:type" content="article">
-<meta property="og:title" content="一款APP设计的从0到1之：iOS篇（精华版）">
-<meta property="og:url" content="https://samingzhong.github.io/2017/12/06/App%E8%BF%90%E8%90%A5/%E4%B8%80%E6%AC%BEAPP%E8%AE%BE%E8%AE%A1%E7%9A%84%E4%BB%8E0%E5%88%B01/index.html">
+  <meta name="description" content="Think more, code less.">
+<meta property="og:type" content="website">
+<meta property="og:title">
+<meta property="og:url" content="https://samingzhong.github.io/page/3/index.html">
 <meta property="og:site_name">
-<meta property="og:description" content="很多时候，我们都忙碌在每天的撸图和改稿中，很少的去整理归纳结和思考工作的一些问题和方法，善于总结反思才能达到事半功倍的效果。今天U妹在这里将自己在设计中的一些经验和技巧分享给小伙伴们，这篇文章集合了前面的6篇精华，希望可以给你一定的帮助。  目前在行业里，关于iOS的设计规范也是层次不齐，很多都还停留在6的设备和ios 9的系统之上，而现在最新的是iphone 7和iOS 10了（更新换代真的">
+<meta property="og:description" content="Think more, code less.">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/img/82.jpg">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/zori6gxbI2Ynsv40lnox.jpg">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/OE3OiQbuLjuM6Q40eqiZ.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/0tX1gukPMAKQmAH4w1fQ.png">
-<meta property="og:image" content="http://img.zcool.cn/community/02313059a81118a801211d25ead636.JPG">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/slpuHOJWDVK8Yi2zbKcq.jpg">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/cnSnk6Ym84sjxdLTPUmu.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/wReM38oxafidmVtkKlx6.jpg">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/rWX5Ob81ZNj49Esnx7Bi.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/RuahSQGn7sycCrxaOsAc.jpg">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/NsE858ab9XFlbHuEytPH.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/1UbVpHLCZtVVXVhax0LZ.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/HwGWvtMIEfvMczVBNfcB.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/NoCOC1aeLFA34wkDMQL3.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/KQeiO7KF9047wQ1xaiq3.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/E04qoGbJHQWJobSFZDAX.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/1EkxkVz8HlwLVm4wUwRi.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/OjWpOGViNOCjBOTGq1i7.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/YIh88b60bwptBAI38Pbu.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/Xk72r39ujjT3YdNjx7mb.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/RzwzMnMhJoG6gurxPqwX.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/W3PL08T2gXdWuKvXIBrp.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/6KuPdUIj4X8oUVgR2R6I.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/4VoyhzNH6SuikeBqiEbr.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/AszFDStiOO8F26YdMoGK.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/OerGypWb31myi0UKA4F6.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/ANvMv5q8TrbgBsv3aOER.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/ekn1rXo9LiTdslx1VEwx.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/nd84WqyhGrfdT8jnKlYB.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/gHl1sPO4u4ZTTvWvMnqU.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/xCSW8vEBYIeSmKV6OrmP.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/PVigjd1Cl5DEEvGSJ2x5.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/JPbSibqxKiC074WUaFeu.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/YqXScQH74Mps0yiFoqdY.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/8eyfQlmp9zNvAgjL4HLr.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/nEOelaQsaQzZftIBzelL.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/oh0vTBtQ6cxU6DxcjjKA.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/sit0WGgYLwAeHivnzrcW.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/zPKKsOJz0Oh8Xgov1vNM.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/70arZNnAJdMi6YhfJK5R.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/kEbvOxutI5dL5ODFvodh.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/YjHYIWh2sWUXbkTHNZxf.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/9TQLSdyplydwU5hFvS0L.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/p3WPRlfoJGkZSEWOVUOg.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/ebS1iJcNhC0ciD2RXMDP.jpg">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/WmC3aVQKLmQcEaCNVCT4.jpg">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/SoFzoKvmDLNAFbtRbmSr.jpg">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/S3RmQL6YrZe58qXYRuGV.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/JkPzsJEfJYTjQrcnQMSc.png">
-<meta property="og:image" content="https://image.woshipm.com/wp-files/2017/12/usPPRMrUUXKNVnsdZaNg.png">
-<meta property="article:published_time" content="2017-12-06T13:51:46.000Z">
-<meta property="article:modified_time" content="2022-08-29T01:54:29.543Z">
 <meta property="article:author" content="SAM">
-<meta property="article:tag" content="App设计">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://image.woshipm.com/wp-files/img/82.jpg">
   
     <link rel="alternate" href="/atom.xml" title="" type="application/atom+xml">
   
@@ -129,7 +75,9 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-App运营/一款APP设计的从0到1" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main">
+  
+    <article id="post-App运营/一款APP设计的从0到1" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2017/12/06/App%E8%BF%90%E8%90%A5/%E4%B8%80%E6%AC%BEAPP%E8%AE%BE%E8%AE%A1%E7%9A%84%E4%BB%8E0%E5%88%B01/" class="article-date">
   <time class="dt-published" datetime="2017-12-06T13:51:46.000Z" itemprop="datePublished">2017-12-06</time>
@@ -142,8 +90,8 @@
       <header class="article-header">
         
   
-    <h1 class="p-name article-title" itemprop="headline name">
-      一款APP设计的从0到1之：iOS篇（精华版）
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2017/12/06/App%E8%BF%90%E8%90%A5/%E4%B8%80%E6%AC%BEAPP%E8%AE%BE%E8%AE%A1%E7%9A%84%E4%BB%8E0%E5%88%B01/">一款APP设计的从0到1之：iOS篇（精华版）</a>
     </h1>
   
 
@@ -152,11 +100,6 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
       <!-- Table of Contents -->
-      
-        <div id="toc" class="toc-article">
-          <strong class="toc-title">文章目录</strong>
-          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E9%A1%B9%E7%9B%AE%E7%AB%8B%E9%A1%B9%E7%AF%87"><span class="toc-number">1.</span> <span class="toc-text">一、项目立项篇</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E9%A1%B9%E7%9B%AE%E9%A2%84%E4%BC%B0%E6%97%B6%E9%97%B4%E7%AF%87"><span class="toc-number">2.</span> <span class="toc-text">二、项目预估时间篇</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1%E3%80%81%E7%A1%AE%E5%AE%9A%E9%87%8D%E8%A6%81%E9%A1%B5%E9%9D%A2"><span class="toc-number">2.1.</span> <span class="toc-text">1、确定重要页面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2%E3%80%81%E7%AD%9B%E9%80%89%E9%87%8D%E5%A4%8D%E9%A1%B5%E9%9D%A2"><span class="toc-number">2.2.</span> <span class="toc-text">2、筛选重复页面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3%E3%80%81%E6%95%B4%E4%BD%93%E9%A2%84%E4%BC%B0%E6%97%B6%E9%97%B4"><span class="toc-number">2.3.</span> <span class="toc-text">3、整体预估时间</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4%E3%80%81%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1%E9%A2%84%E4%BC%B0%E6%97%B6%E9%97%B4"><span class="toc-number">2.4.</span> <span class="toc-text">4、网页设计预估时间</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1%E7%AF%87"><span class="toc-number">3.</span> <span class="toc-text">三、界面设计篇</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1%E3%80%81%E5%85%B3%E4%BA%8E%E8%AE%BE%E8%AE%A1%E5%B7%A5%E5%85%B7"><span class="toc-number">3.1.</span> <span class="toc-text">1、关于设计工具</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3%E3%80%81%E5%9B%BE%E6%A0%87%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83"><span class="toc-number">3.2.</span> <span class="toc-text">3、图标设计规范</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4%E3%80%81%E5%85%B3%E4%BA%8E%E8%AE%BE%E8%AE%A1%E5%AD%97%E4%BD%93"><span class="toc-number">3.3.</span> <span class="toc-text">4、关于设计字体</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E5%88%87%E5%9B%BE%E6%A0%87%E6%B3%A8%E7%AF%87"><span class="toc-number">4.</span> <span class="toc-text">四、切图标注篇</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1%E3%80%81%E5%88%87%E5%9B%BE%E5%B7%A5%E5%85%B7"><span class="toc-number">4.1.</span> <span class="toc-text">1、切图工具</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2%E3%80%81%E6%A0%87%E6%B3%A8%E5%B7%A5%E5%85%B7"><span class="toc-number">4.2.</span> <span class="toc-text">2、标注工具</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3%E3%80%81%E9%A1%B5%E9%9D%A2%E6%A0%87%E6%B3%A8"><span class="toc-number">4.3.</span> <span class="toc-text">3、页面标注</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4%E3%80%81%E7%95%8C%E9%9D%A2%E5%88%87%E5%9B%BE"><span class="toc-number">4.4.</span> <span class="toc-text">4、界面切图</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E8%A7%86%E8%A7%89%E8%BF%98%E5%8E%9F%E7%AF%87"><span class="toc-number">5.</span> <span class="toc-text">五、视觉还原篇</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1%E3%80%81%E8%AE%BE%E8%AE%A1%E5%B8%88%E5%A6%82%E4%BD%95%E5%81%9A%E8%A7%86%E8%A7%89%E8%BF%98%E5%8E%9F%EF%BC%9F"><span class="toc-number">5.1.</span> <span class="toc-text">1、设计师如何做视觉还原？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2%E3%80%81%E5%A6%82%E4%BD%95%E8%AE%A9%E6%95%88%E6%9E%9C%E5%9B%BE%E9%AB%98%E8%BF%98%E5%8E%9F%E5%BA%A6%E8%90%BD%E5%9C%B0%EF%BC%9F"><span class="toc-number">5.2.</span> <span class="toc-text">2、如何让效果图高还原度落地？</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AD%E3%80%81%E4%B8%8A%E7%BA%BF%E5%87%86%E5%A4%87%E7%AF%87"><span class="toc-number">6.</span> <span class="toc-text">六、上线准备篇</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1%E3%80%81%E5%BA%94%E7%94%A8%E5%9B%BE%E6%A0%87%EF%BC%88APP-Icon%EF%BC%89"><span class="toc-number">6.1.</span> <span class="toc-text">1、应用图标（APP Icon）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2%E3%80%81%E5%90%AF%E5%8A%A8%E9%A1%B5%EF%BC%88Launch-Image%EF%BC%89"><span class="toc-number">6.2.</span> <span class="toc-text">2、启动页（Launch Image）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3%E3%80%81%E5%95%86%E5%BA%97%E9%A1%B5%EF%BC%88Launch-Image%EF%BC%89"><span class="toc-number">6.3.</span> <span class="toc-text">3、商店页（Launch Image）</span></a></li></ol></li></ol>
-        </div>
       
         <p><img src="https://image.woshipm.com/wp-files/img/82.jpg" alt="img"></p>
 <blockquote>
@@ -424,24 +367,17 @@
     </footer>
   </div>
   
-    
-<nav id="article-nav">
-  
-    <a href="/2022/07/23/hexo/hexo-helper/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">前一篇</strong>
-      <div class="article-nav-title">
-        
-          Hexo建站Q&amp;A
-        
-      </div>
-    </a>
-  
-  
-</nav>
-
-  
 </article>
 
+
+
+  
+
+
+  <nav id="page-nav">
+    
+    <a class="extend prev" rel="prev" href="/page/2/">&laquo; 上一页</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
+  </nav>
 
 </section>
         

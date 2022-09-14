@@ -11,6 +11,10 @@ toc: true
 
 
 
+### WebView与原生Flutter的交互
+
+
+
 ### Flutter转场卡顿
 
 1. 转场动画加上页面初始化/销毁中较复杂的操作（一般涉及到IO或者比较消耗CPU的计算），可能会引起页面卡顿。
@@ -31,3 +35,16 @@ toc: true
 ClipRRect
 ```
 
+
+
+### Could not run build/ios/iphoneos/Runner.app, Try launching Xcode and selecting "Product > Run" to fix the problem #107760
+
+https://github.com/flutter/flutter/issues/107760
+
+https://juejin.cn/post/7104133574739099684
+
+
+
+### Xcode打包生成ipa四个选项的具体区别
+
+https://www.jianshu.com/p/94e581861707

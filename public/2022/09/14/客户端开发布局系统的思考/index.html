@@ -4,20 +4,19 @@
   <meta charset="utf-8">
   
   
-  <title>关键结论 | </title>
+  <title>客户端开发布局系统的思考 | </title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="用户变现&amp;变现策略 虽然 95% 的 App 是免费安装的，但整个行业在这一年中从各种变现来源获得了高达 4000 亿美元的收入。 有 5 种应用变现模式：应用内广告、应用内购买、付费应用、订阅和混合模式 创建一个对用户友好的 App 变现战略来确保留存并增长你的用户群体，并从中获利。 应用内广告和应用内购买是迄今为止最常见的移动 App 变现模式 为了更好了解使用何种广告模式，首先要区分">
+  <meta name="description" content="客户端布局系统对于开发者来说，其友好程度，决定了开发者的代码幸福感。使用编译型语言去构建UI的时候（非操作XML布局文件），要想知道结果，得重新编译源代码。那么，问题是，如何做到，代码修改，UI立刻变化？这是客户端开发梦寐以求的开发方式（羡慕Web前端开发了）">
 <meta property="og:type" content="article">
-<meta property="og:title" content="关键结论">
-<meta property="og:url" content="https://samingzhong.github.io/2022/08/28/App%E8%BF%90%E8%90%A5/%E5%85%B3%E9%94%AE%E7%BB%93%E8%AE%BA/index.html">
+<meta property="og:title" content="客户端开发布局系统的思考">
+<meta property="og:url" content="https://samingzhong.github.io/2022/09/14/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B8%83%E5%B1%80%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%80%9D%E8%80%83/index.html">
 <meta property="og:site_name">
-<meta property="og:description" content="用户变现&amp;变现策略 虽然 95% 的 App 是免费安装的，但整个行业在这一年中从各种变现来源获得了高达 4000 亿美元的收入。 有 5 种应用变现模式：应用内广告、应用内购买、付费应用、订阅和混合模式 创建一个对用户友好的 App 变现战略来确保留存并增长你的用户群体，并从中获利。 应用内广告和应用内购买是迄今为止最常见的移动 App 变现模式 为了更好了解使用何种广告模式，首先要区分">
+<meta property="og:description" content="客户端布局系统对于开发者来说，其友好程度，决定了开发者的代码幸福感。使用编译型语言去构建UI的时候（非操作XML布局文件），要想知道结果，得重新编译源代码。那么，问题是，如何做到，代码修改，UI立刻变化？这是客户端开发梦寐以求的开发方式（羡慕Web前端开发了）">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-08-28T13:51:46.000Z">
-<meta property="article:modified_time" content="2022-08-29T01:54:29.544Z">
+<meta property="article:published_time" content="2022-09-14T07:02:38.000Z">
+<meta property="article:modified_time" content="2022-09-14T07:07:02.742Z">
 <meta property="article:author" content="SAM">
-<meta property="article:tag" content="最佳实践">
-<meta property="article:tag" content="App运营">
+<meta property="article:tag" content="未定义">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="" type="application/atom+xml">
@@ -79,10 +78,10 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-App运营/关键结论" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-客户端开发布局系统的思考" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2022/08/28/App%E8%BF%90%E8%90%A5/%E5%85%B3%E9%94%AE%E7%BB%93%E8%AE%BA/" class="article-date">
-  <time class="dt-published" datetime="2022-08-28T13:51:46.000Z" itemprop="datePublished">2022-08-28</time>
+    <a href="/2022/09/14/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B8%83%E5%B1%80%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%80%9D%E8%80%83/" class="article-date">
+  <time class="dt-published" datetime="2022-09-14T07:02:38.000Z" itemprop="datePublished">2022-09-14</time>
 </a>
     
   </div>
@@ -93,7 +92,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      关键结论
+      客户端开发布局系统的思考
     </h1>
   
 
@@ -105,25 +104,19 @@
       
         <div id="toc" class="toc-article">
           <strong class="toc-title">文章目录</strong>
-          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%94%A8%E6%88%B7%E5%8F%98%E7%8E%B0-amp-%E5%8F%98%E7%8E%B0%E7%AD%96%E7%95%A5"><span class="toc-number">1.</span> <span class="toc-text">用户变现&amp;变现策略</span></a></li></ol>
+          
         </div>
       
-        <h2 id="用户变现-amp-变现策略"><a href="#用户变现-amp-变现策略" class="headerlink" title="用户变现&amp;变现策略"></a>用户变现&amp;变现策略</h2><ul>
-<li>虽然 95% 的 App 是免费安装的，但整个行业在这一年中从各种变现来源获得了高达 4000 亿美元的收入。</li>
-<li>有 5 种应用变现模式：应用内广告、应用内购买、付费应用、订阅和混合模式</li>
-<li>创建一个对用户友好的 App 变现战略来确保留存并增长你的用户群体，并从中获利。</li>
-<li>应用内广告和应用内购买是迄今为止最常见的移动 App 变现模式</li>
-<li>为了更好了解使用何种广告模式，首先要区分你上架的是付费还是免费 App。测试多个模型，同时计算留存、ARPU 等关键绩效指标，从而有效衡量每个模型的表现。</li>
-</ul>
+        <p>客户端布局系统对于开发者来说，其友好程度，决定了开发者的代码幸福感。使用编译型语言去构建UI的时候（非操作XML布局文件），要想知道结果，得重新编译源代码。那么，问题是，如何做到，代码修改，UI立刻变化？这是客户端开发梦寐以求的开发方式（羡慕Web前端开发了）</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://samingzhong.github.io/2022/08/28/App%E8%BF%90%E8%90%A5/%E5%85%B3%E9%94%AE%E7%BB%93%E8%AE%BA/" data-id="cl7e3xwlh0004lu692kumgrnu" data-title="关键结论" class="article-share-link">分享</a>
+      <a data-url="https://samingzhong.github.io/2022/09/14/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B8%83%E5%B1%80%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%80%9D%E8%80%83/" data-id="cl81a5r6g0000mv695dbv6yhz" data-title="客户端开发布局系统的思考" class="article-share-link">分享</a>
       
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/App%E8%BF%90%E8%90%A5/" rel="tag">App运营</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/" rel="tag">最佳实践</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%9C%AA%E5%AE%9A%E4%B9%89/" rel="tag">未定义</a></li></ul>
 
     </footer>
   </div>
@@ -131,19 +124,10 @@
     
 <nav id="article-nav">
   
-    <a href="/2022/08/28/App%E8%BF%90%E8%90%A5/App%E5%8F%98%E7%8E%B0%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%8F%98%E7%8E%B0%E7%AD%96%E7%95%A5/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">前一篇</strong>
-      <div class="article-nav-title">
-        
-          App变现模式与变现策略
-        
-      </div>
-    </a>
   
-  
-    <a href="/2022/08/28/product/product-life/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2022/09/09/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E6%9D%82%E8%B0%88/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E6%9D%82%E8%B0%88/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">后一篇</strong>
-      <div class="article-nav-title">四大产品生命周期丨运营如何明确不同阶段的目标和效果</div>
+      <div class="article-nav-title">移动开发杂谈</div>
     </a>
   
 </nav>
