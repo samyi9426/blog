@@ -43,6 +43,8 @@ https://github.com/flutter/flutter/issues/107760
 
 https://juejin.cn/post/7104133574739099684
 
+最后，完全执行（多个目录下）Flutter clean后，重新run起来了。
+
 
 
 ### Xcode打包生成ipa四个选项的具体区别
