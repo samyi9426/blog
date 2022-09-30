@@ -6,7 +6,7 @@
   <link href="https://samingzhong.github.io/atom.xml" rel="self"/>
   
   <link href="https://samingzhong.github.io/"/>
-  <updated>2022-09-14T07:07:02.742Z</updated>
+  <updated>2022-09-29T02:20:33.257Z</updated>
   <id>https://samingzhong.github.io/</id>
   
   <author>
@@ -17,9 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Swift知识点备忘</title>
+    <link href="https://samingzhong.github.io/2022/09/29/Swift%E7%9F%A5%E8%AF%86%E7%82%B9%E5%A4%87%E5%BF%98/"/>
+    <id>https://samingzhong.github.io/2022/09/29/Swift%E7%9F%A5%E8%AF%86%E7%82%B9%E5%A4%87%E5%BF%98/</id>
+    <published>2022-09-29T02:20:33.000Z</published>
+    <updated>2022-09-29T02:20:33.257Z</updated>
+    
+    
+    
+    
+    
+    <category term="未定义" scheme="https://samingzhong.github.io/tags/%E6%9C%AA%E5%AE%9A%E4%B9%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>22-10月计划</title>
+    <link href="https://samingzhong.github.io/2022/09/29/%E8%AE%A1%E5%88%92&amp;%E5%AE%8C%E6%88%90/22-10%E6%9C%88%E8%AE%A1%E5%88%92/"/>
+    <id>https://samingzhong.github.io/2022/09/29/%E8%AE%A1%E5%88%92&amp;%E5%AE%8C%E6%88%90/22-10%E6%9C%88%E8%AE%A1%E5%88%92/</id>
+    <published>2022-09-29T02:08:50.000Z</published>
+    <updated>2022-09-29T02:18:02.395Z</updated>
+    
+    
+    
+    
+    
+    <category term="计划&amp;完成" scheme="https://samingzhong.github.io/tags/%E8%AE%A1%E5%88%92-%E5%AE%8C%E6%88%90/"/>
+    
+  </entry>
+  
+  <entry>
     <title>客户端开发布局系统的思考</title>
-    <link href="https://samingzhong.github.io/2022/09/14/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B8%83%E5%B1%80%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%80%9D%E8%80%83/"/>
-    <id>https://samingzhong.github.io/2022/09/14/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B8%83%E5%B1%80%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%80%9D%E8%80%83/</id>
+    <link href="https://samingzhong.github.io/2022/09/14/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B8%83%E5%B1%80%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%80%9D%E8%80%83/"/>
+    <id>https://samingzhong.github.io/2022/09/14/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B8%83%E5%B1%80%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%80%9D%E8%80%83/</id>
     <published>2022-09-14T07:02:38.000Z</published>
     <updated>2022-09-14T07:07:02.742Z</updated>
     
@@ -41,8 +71,8 @@
   
   <entry>
     <title>移动开发杂谈</title>
-    <link href="https://samingzhong.github.io/2022/09/09/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E6%9D%82%E8%B0%88/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E6%9D%82%E8%B0%88/"/>
-    <id>https://samingzhong.github.io/2022/09/09/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E6%9D%82%E8%B0%88/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E6%9D%82%E8%B0%88/</id>
+    <link href="https://samingzhong.github.io/2022/09/09/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E5%85%B6%E4%BB%96/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E6%9D%82%E8%B0%88/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E6%9D%82%E8%B0%88/"/>
+    <id>https://samingzhong.github.io/2022/09/09/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E5%85%B6%E4%BB%96/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E6%9D%82%E8%B0%88/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E6%9D%82%E8%B0%88/</id>
     <published>2022-09-09T02:10:26.000Z</published>
     <updated>2022-09-09T02:52:52.058Z</updated>
     
@@ -64,8 +94,8 @@
   
   <entry>
     <title></title>
-    <link href="https://samingzhong.github.io/2022/09/02/Apple%20Developer/"/>
-    <id>https://samingzhong.github.io/2022/09/02/Apple%20Developer/</id>
+    <link href="https://samingzhong.github.io/2022/09/02/%E6%9C%AA%E5%AE%9A%E4%B9%89/Apple%20Developer/"/>
+    <id>https://samingzhong.github.io/2022/09/02/%E6%9C%AA%E5%AE%9A%E4%B9%89/Apple%20Developer/</id>
     <published>2022-09-02T07:42:41.193Z</published>
     <updated>2022-09-05T02:04:07.530Z</updated>
     
@@ -84,8 +114,8 @@
   
   <entry>
     <title>xcode-error</title>
-    <link href="https://samingzhong.github.io/2022/09/01/xcode-error/"/>
-    <id>https://samingzhong.github.io/2022/09/01/xcode-error/</id>
+    <link href="https://samingzhong.github.io/2022/09/01/%E6%9C%AA%E5%AE%9A%E4%B9%89/xcode-error/"/>
+    <id>https://samingzhong.github.io/2022/09/01/%E6%9C%AA%E5%AE%9A%E4%B9%89/xcode-error/</id>
     <published>2022-09-01T09:07:01.000Z</published>
     <updated>2022-09-05T02:19:12.466Z</updated>
     
@@ -106,8 +136,8 @@
   
   <entry>
     <title>bash-helper</title>
-    <link href="https://samingzhong.github.io/2022/08/31/bash%E8%84%9A%E6%9C%AC/bash-helper/"/>
-    <id>https://samingzhong.github.io/2022/08/31/bash%E8%84%9A%E6%9C%AC/bash-helper/</id>
+    <link href="https://samingzhong.github.io/2022/08/31/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E5%85%B6%E4%BB%96/bash%E8%84%9A%E6%9C%AC/bash-helper/"/>
+    <id>https://samingzhong.github.io/2022/08/31/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E5%85%B6%E4%BB%96/bash%E8%84%9A%E6%9C%AC/bash-helper/</id>
     <published>2022-08-30T16:06:02.000Z</published>
     <updated>2022-08-31T02:14:36.113Z</updated>
     
@@ -119,8 +149,8 @@
   
   <entry>
     <title>22-9</title>
-    <link href="https://samingzhong.github.io/2022/08/30/22-9%E6%9C%88%E8%AE%A1%E5%88%92/22-9%E6%9C%88%E8%AE%A1%E5%88%92/"/>
-    <id>https://samingzhong.github.io/2022/08/30/22-9%E6%9C%88%E8%AE%A1%E5%88%92/22-9%E6%9C%88%E8%AE%A1%E5%88%92/</id>
+    <link href="https://samingzhong.github.io/2022/08/30/%E8%AE%A1%E5%88%92&amp;%E5%AE%8C%E6%88%90/22-9%E6%9C%88%E8%AE%A1%E5%88%92/"/>
+    <id>https://samingzhong.github.io/2022/08/30/%E8%AE%A1%E5%88%92&amp;%E5%AE%8C%E6%88%90/22-9%E6%9C%88%E8%AE%A1%E5%88%92/</id>
     <published>2022-08-30T10:00:51.000Z</published>
     <updated>2022-09-01T06:11:43.861Z</updated>
     
@@ -145,8 +175,8 @@
   
   <entry>
     <title>App调研</title>
-    <link href="https://samingzhong.github.io/2022/08/30/App%E8%B0%83%E7%A0%94/App%E8%B0%83%E7%A0%94/"/>
-    <id>https://samingzhong.github.io/2022/08/30/App%E8%B0%83%E7%A0%94/App%E8%B0%83%E7%A0%94/</id>
+    <link href="https://samingzhong.github.io/2022/08/30/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E5%85%B6%E4%BB%96/App%E8%B0%83%E7%A0%94/App%E8%B0%83%E7%A0%94/"/>
+    <id>https://samingzhong.github.io/2022/08/30/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E5%85%B6%E4%BB%96/App%E8%B0%83%E7%A0%94/App%E8%B0%83%E7%A0%94/</id>
     <published>2022-08-30T02:05:22.000Z</published>
     <updated>2022-08-31T02:15:15.495Z</updated>
     
@@ -169,8 +199,8 @@
   
   <entry>
     <title>RSS阅读器</title>
-    <link href="https://samingzhong.github.io/2022/08/30/App%E8%B0%83%E7%A0%94/RSS%E9%98%85%E8%AF%BB%E5%99%A8/RSS%E9%98%85%E8%AF%BB%E5%99%A8/"/>
-    <id>https://samingzhong.github.io/2022/08/30/App%E8%B0%83%E7%A0%94/RSS%E9%98%85%E8%AF%BB%E5%99%A8/RSS%E9%98%85%E8%AF%BB%E5%99%A8/</id>
+    <link href="https://samingzhong.github.io/2022/08/30/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E5%85%B6%E4%BB%96/App%E8%B0%83%E7%A0%94/RSS%E9%98%85%E8%AF%BB%E5%99%A8/RSS%E9%98%85%E8%AF%BB%E5%99%A8/"/>
+    <id>https://samingzhong.github.io/2022/08/30/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E5%85%B6%E4%BB%96/App%E8%B0%83%E7%A0%94/RSS%E9%98%85%E8%AF%BB%E5%99%A8/RSS%E9%98%85%E8%AF%BB%E5%99%A8/</id>
     <published>2022-08-30T02:04:27.000Z</published>
     <updated>2022-08-31T02:15:15.495Z</updated>
     
@@ -182,8 +212,8 @@
   
   <entry>
     <title>Bash脚本</title>
-    <link href="https://samingzhong.github.io/2022/08/29/bash%E8%84%9A%E6%9C%AC/bash%E8%84%9A%E6%9C%AC/"/>
-    <id>https://samingzhong.github.io/2022/08/29/bash%E8%84%9A%E6%9C%AC/bash%E8%84%9A%E6%9C%AC/</id>
+    <link href="https://samingzhong.github.io/2022/08/29/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E5%85%B6%E4%BB%96/bash%E8%84%9A%E6%9C%AC/bash%E8%84%9A%E6%9C%AC/"/>
+    <id>https://samingzhong.github.io/2022/08/29/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E5%85%B6%E4%BB%96/bash%E8%84%9A%E6%9C%AC/bash%E8%84%9A%E6%9C%AC/</id>
     <published>2022-08-29T06:03:12.000Z</published>
     <updated>2022-08-31T02:14:36.114Z</updated>
     
@@ -227,8 +257,8 @@
   
   <entry>
     <title>App变现模式与变现策略</title>
-    <link href="https://samingzhong.github.io/2022/08/28/App%E8%BF%90%E8%90%A5/App%E5%8F%98%E7%8E%B0%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%8F%98%E7%8E%B0%E7%AD%96%E7%95%A5/"/>
-    <id>https://samingzhong.github.io/2022/08/28/App%E8%BF%90%E8%90%A5/App%E5%8F%98%E7%8E%B0%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%8F%98%E7%8E%B0%E7%AD%96%E7%95%A5/</id>
+    <link href="https://samingzhong.github.io/2022/08/28/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E5%85%B6%E4%BB%96/App%E8%BF%90%E8%90%A5/App%E5%8F%98%E7%8E%B0%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%8F%98%E7%8E%B0%E7%AD%96%E7%95%A5/"/>
+    <id>https://samingzhong.github.io/2022/08/28/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E5%85%B6%E4%BB%96/App%E8%BF%90%E8%90%A5/App%E5%8F%98%E7%8E%B0%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%8F%98%E7%8E%B0%E7%AD%96%E7%95%A5/</id>
     <published>2022-08-28T15:32:41.000Z</published>
     <updated>2022-08-29T03:34:15.937Z</updated>
     
@@ -255,8 +285,8 @@
   
   <entry>
     <title>关键结论</title>
-    <link href="https://samingzhong.github.io/2022/08/28/App%E8%BF%90%E8%90%A5/%E5%85%B3%E9%94%AE%E7%BB%93%E8%AE%BA/"/>
-    <id>https://samingzhong.github.io/2022/08/28/App%E8%BF%90%E8%90%A5/%E5%85%B3%E9%94%AE%E7%BB%93%E8%AE%BA/</id>
+    <link href="https://samingzhong.github.io/2022/08/28/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E5%85%B6%E4%BB%96/App%E8%BF%90%E8%90%A5/%E5%85%B3%E9%94%AE%E7%BB%93%E8%AE%BA/"/>
+    <id>https://samingzhong.github.io/2022/08/28/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E5%85%B6%E4%BB%96/App%E8%BF%90%E8%90%A5/%E5%85%B3%E9%94%AE%E7%BB%93%E8%AE%BA/</id>
     <published>2022-08-28T13:51:46.000Z</published>
     <updated>2022-08-29T01:54:29.544Z</updated>
     
@@ -280,8 +310,8 @@
   
   <entry>
     <title>四大产品生命周期丨运营如何明确不同阶段的目标和效果</title>
-    <link href="https://samingzhong.github.io/2022/08/28/product/product-life/"/>
-    <id>https://samingzhong.github.io/2022/08/28/product/product-life/</id>
+    <link href="https://samingzhong.github.io/2022/08/28/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E5%85%B6%E4%BB%96/product/product-life/"/>
+    <id>https://samingzhong.github.io/2022/08/28/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E5%85%B6%E4%BB%96/product/product-life/</id>
     <published>2022-08-28T13:36:22.000Z</published>
     <updated>2022-08-29T01:54:29.544Z</updated>
     
@@ -304,12 +334,12 @@
   
   <entry>
     <title>9月</title>
-    <link href="https://samingzhong.github.io/2022/08/28/life/life-month-9/"/>
-    <id>https://samingzhong.github.io/2022/08/28/life/life-month-9/</id>
+    <link href="https://samingzhong.github.io/2022/08/28/%E7%94%9F%E6%B4%BB/life-month-9/"/>
+    <id>https://samingzhong.github.io/2022/08/28/%E7%94%9F%E6%B4%BB/life-month-9/</id>
     <published>2022-08-28T08:00:43.000Z</published>
-    <updated>2022-08-29T08:03:55.522Z</updated>
+    <updated>2022-08-30T10:39:38.247Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h2><p>给小朋友在家附近报名了钢琴，自己学了一阵子琴，然后只能弹一个4536251的和弦，一首生日快乐、婚礼进行曲，就这样止步不前了，惭愧。</p><p>那就钢琴希望她能学有所成吧～</p><p>分享一段关于小朋友的视频</p><p><video height="400" src="https://samingzhong.github.io/images/2022/video828.mp4" controls>   你的浏览器不支持 <code>video</code> 标签。 </video></p><h2 id="科技行业"><a href="#科技行业" class="headerlink" title="科技行业"></a>科技行业</h2><p>9月份是个科技行业热闹的月份。个人比较关注的有几个：苹果即将发布新款iPhone、小鹏G9上市。无论哪个，都是凑凑热闹，不会考虑掏钱买，（也没钱买😂）。</p><p><img src="/images/2022/iphone14.jpeg"></p><ul><li><p>新款iPhone。</p><p>不出意外，硬件也不会有啥亮点，屏幕升级：感叹号屏幕，刷新率可能会上去。</p><ul><li>由于Face ID，前面的红外镜头、摄像头、距离感应器等需要占用空间。感叹号屏幕，是现阶段的最优解了吧。</li><li>屏幕刷新率。迫于Android设备都到240HZ了，是得跟一跟了。</li><li>其他。新配色肯定会有的，已经成习俗了。真的也不好意思拿出来说吧，但是又很实在，消费者有需要（不然怎么知道我用的是新款？！Damn it！该死的虚荣心！但我是没这需求的）。</li></ul><hr></li></ul><p><img src="/images/2022/G9.jpeg" alt="G9"></p><ul><li>小鹏G9。这是奶爸车定位，类似理想One。目测售价30-50w，好贵，我不配关注它😂。</li></ul><h2 id="裁员潮"><a href="#裁员潮" class="headerlink" title="裁员潮"></a>裁员潮</h2><p>最近新闻、B站、公众号等挺多人说自己被裁员了，然后挺长一段时间都没找到合适的工作，也有点感慨，自己5月底离职，然后六月份顺利入职新公司，回想下，也算挺幸运的了吧，现在咱们这一代年轻人，背负的东西太多，尤其是85-95这一阶段的年轻人，养家糊口，买房买车，真的太难了。主要还是房子占我们收入比重太高了，如果普通家庭5年-10年左右的继续就可以买下一套房子，那么局面就不会是今天这样。但是，这个事情跟经济发展挂钩严重，所以，都是身不由己。特别是现在最近这几年中美关系变差、全球疫情、乌俄战争等，内外环境都不太友好，作为普通人，我觉得我们需要做的就是：</p><ul><li><p><strong>降级消费，尽快结清负债并攒下一定的现金</strong></p><ul><li><p>尽快还清负债。</p><p>35岁以后，如果还是给企业打工，这个风险较高，因为企业一般情况下都会优先淘汰高龄高薪员工，那么意味着随时可能失业，月供怎么解决？所以，提前把债务清掉，这就是眼下的标准答案了吧。</p></li><li><p>降级消费。</p><p>最近十几二十年，消费崛起太明显了，整个社会的风气也是，被商家带着走，处处都是设法让你消费的广告，房子、车子、手机等数码产品，衣食住行等，太多所谓的消费陷阱，看清了这些套路，我们只需要做到：保证刚需，其他的尽可能拒绝消费，把现金省下来。（还有种胡扯的说法：钱是省不下来的，而是挣下来的。这也是想让你不停的掏钱消费的套路，别被带偏了。）</p></li><li><p>积攒足够的现金。</p><p>充裕的现金，目的就是保证发生意外或者外部不确定因素的情况下，我们的正常生活不受严重影响。比如说重大疾病、经济下滑、通货膨胀甚至战争这种，充裕的现金至少能保证，三五年内，不至于被饿死。</p></li></ul><p><strong>简单总结下就是：尽量别太花钱，多攒钱。</strong></p></li><li><p><strong>30岁-35岁，摸清所在行业运行规律，打磨好技术，并做技术变现；另外就是寻找跨行业的就业可能。</strong></p><ul><li><p>互联网行业做技术，目前环境来说，做一辈子是不可能的。所以尽早摸清所在行业运行规律，想办法做好技术变现。通俗来讲就是，了解清楚并尽可能hold的住一个互联网产品开发运营的整个生命周期，自己尝试做一个产品，并顺利运营它，哪怕不挣钱，这也是一种经验尝试。拥有了这种技能和经验，后面如果有好的机会、风口，你能快速造出产品，并且运营起来，没准，干个一年半载，比你给企业打10年工挣得还要多，闷声发财，说的就是这个。所以，行业上，很多独立开发者，挣了钱都是不敢说的，怕的就是竞争对手入场，财路就断了，基本没人这么傻，自断饭碗。那么，说回重点：就目前来说，互联网产品开发和运营的生命周期，我还缺啥？</p><p>先捋清互联网产品开发运营的几个重点环节：</p><ul><li>0、产品选型</li><li>1、产品设计</li><li>2、产品开发</li><li>3、产品运营</li></ul><p>一般开发者就是在第二个流水线。没错，我们跟工厂里的工人没本质区别，都是技能、工种单一，一般情况无法熟悉和掌握整个流水线的各种技能，这也是我们产生焦虑的根本原因：我们很容易被替代，年纪一大，随时被企业扔掉。</p><p>根据第一性原理：直指目标，缺啥补啥。那产品开发这块，我们就得掌握从0-1全流程的制作流程，确保自己能从头到尾把产品做出来。</p><p>然后就只剩下0、1、3三个工序技能需要掌握，但这里说的掌握，应该不需要所谓的精通，熟悉掌握即可。</p><ul><li>产品选型。得调研清楚，整个市场哪方面的产品机会比较大，这里说的机会是：你能为用户带来什么，能帮助用户解决什么痛点。微信解决了人与人的即时消息、状况联通需求；抖音、微博满足了用户的猎奇、消磨碎片时间的需求。购物App、游戏等同理。</li><li>产品设计。主要是功能、交互UI设计。快、准、好看好用。</li><li>产品运营。积累用户、分析用户更潜在需求，设计让用户掏钱的功能，设法保证产品可持续、能增长。也就保证了财路。</li></ul><p>接下来，我将会在这4个方面做一些学习和记录</p></li></ul><p>愿 诸事顺遂！！</p></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h2><p>给小朋友在家附近报名了钢琴，自己学了一阵子琴，然后只能弹一个4536251的和弦，一首生日快乐、婚礼进行曲，就这样止步不前了，惭愧。</p><p>那就钢琴希望她能学有所成吧～</p><p>分享一段关于小朋友的视频</p><p><video height=400 src="https://samingzhong.github.io/images/2022/video828.mp4" controls>   你的浏览器不支持 <code>video</code> 标签。 </video></p><h2 id="科技行业"><a href="#科技行业" class="headerlink" title="科技行业"></a>科技行业</h2><p>9月份是个科技行业热闹的月份。个人比较关注的有几个：苹果即将发布新款iPhone、小鹏G9上市。无论哪个，都是凑凑热闹，不会考虑掏钱买，（也没钱买😂）。</p><p><img src="/images/2022/iphone14.jpeg"></p><ul><li><p>新款iPhone。</p><p>不出意外，硬件也不会有啥亮点，屏幕升级：感叹号屏幕，刷新率可能会上去。</p><ul><li>由于Face ID，前面的红外镜头、摄像头、距离感应器等需要占用空间。感叹号屏幕，是现阶段的最优解了吧。</li><li>屏幕刷新率。迫于Android设备都到240HZ了，是得跟一跟了。</li><li>其他。新配色肯定会有的，已经成习俗了。真的也不好意思拿出来说吧，但是又很实在，消费者有需要（不然怎么知道我用的是新款？！Damn it！该死的虚荣心！但我是没这需求的）。</li></ul><hr></li></ul><p><img src="/images/2022/G9.jpeg" alt="G9"></p><ul><li>小鹏G9。这是奶爸车定位，类似理想One。目测售价30-50w，好贵，我不配关注它😂。</li></ul><h2 id="裁员潮"><a href="#裁员潮" class="headerlink" title="裁员潮"></a>裁员潮</h2><p>最近新闻、B站、公众号等挺多人说自己被裁员了，然后挺长一段时间都没找到合适的工作，也有点感慨，自己5月底离职，然后六月份顺利入职新公司，回想下，也算挺幸运的了吧，现在咱们这一代年轻人，背负的东西太多，尤其是85-95这一阶段的年轻人，养家糊口，买房买车，真的太难了。主要还是房子占我们收入比重太高了，如果普通家庭5年-10年左右的继续就可以买下一套房子，那么局面就不会是今天这样。但是，这个事情跟经济发展挂钩严重，所以，都是身不由己。特别是现在最近这几年中美关系变差、全球疫情、乌俄战争等，内外环境都不太友好，作为普通人，我觉得我们需要做的就是：</p><ul><li><p><strong>降级消费，尽快结清负债并攒下一定的现金</strong></p><ul><li><p>尽快还清负债。</p><p>35岁以后，如果还是给企业打工，这个风险较高，因为企业一般情况下都会优先淘汰高龄高薪员工，那么意味着随时可能失业，月供怎么解决？所以，提前把债务清掉，这就是眼下的标准答案了吧。</p></li><li><p>降级消费。</p><p>最近十几二十年，消费崛起太明显了，整个社会的风气也是，被商家带着走，处处都是设法让你消费的广告，房子、车子、手机等数码产品，衣食住行等，太多所谓的消费陷阱，看清了这些套路，我们只需要做到：保证刚需，其他的尽可能拒绝消费，把现金省下来。（还有种胡扯的说法：钱是省不下来的，而是挣下来的。这也是想让你不停的掏钱消费的套路，别被带偏了。）</p></li><li><p>积攒足够的现金。</p><p>充裕的现金，目的就是保证发生意外或者外部不确定因素的情况下，我们的正常生活不受严重影响。比如说重大疾病、经济下滑、通货膨胀甚至战争这种，充裕的现金至少能保证，三五年内，不至于被饿死。</p></li></ul><p><strong>简单总结下就是：尽量别太花钱，多攒钱。</strong></p></li><li><p><strong>30岁-35岁，摸清所在行业运行规律，打磨好技术，并做技术变现；另外就是寻找跨行业的就业可能。</strong></p><ul><li><p>互联网行业做技术，目前环境来说，做一辈子是不可能的。所以尽早摸清所在行业运行规律，想办法做好技术变现。通俗来讲就是，了解清楚并尽可能hold的住一个互联网产品开发运营的整个生命周期，自己尝试做一个产品，并顺利运营它，哪怕不挣钱，这也是一种经验尝试。拥有了这种技能和经验，后面如果有好的机会、风口，你能快速造出产品，并且运营起来，没准，干个一年半载，比你给企业打10年工挣得还要多，闷声发财，说的就是这个。所以，行业上，很多独立开发者，挣了钱都是不敢说的，怕的就是竞争对手入场，财路就断了，基本没人这么傻，自断饭碗。那么，说回重点：就目前来说，互联网产品开发和运营的生命周期，我还缺啥？</p><p>先捋清互联网产品开发运营的几个重点环节：</p><ul><li>0、产品选型</li><li>1、产品设计</li><li>2、产品开发</li><li>3、产品运营</li></ul><p>一般开发者就是在第二个流水线。没错，我们跟工厂里的工人没本质区别，都是技能、工种单一，一般情况无法熟悉和掌握整个流水线的各种技能，这也是我们产生焦虑的根本原因：我们很容易被替代，年纪一大，随时被企业扔掉。</p><p>根据第一性原理：直指目标，缺啥补啥。那产品开发这块，我们就得掌握从0-1全流程的制作流程，确保自己能从头到尾把产品做出来。</p><p>然后就只剩下0、1、3三个工序技能需要掌握，但这里说的掌握，应该不需要所谓的精通，熟悉掌握即可。</p><ul><li>产品选型。得调研清楚，整个市场哪方面的产品机会比较大，这里说的机会是：你能为用户带来什么，能帮助用户解决什么痛点。微信解决了人与人的即时消息、状况联通需求；抖音、微博满足了用户的猎奇、消磨碎片时间的需求。购物App、游戏等同理。</li><li>产品设计。主要是功能、交互UI设计。快、准、好看好用。</li><li>产品运营。积累用户、分析用户更潜在需求，设计让用户掏钱的功能，设法保证产品可持续、能增长。也就保证了财路。</li></ul><p>接下来，我将会在这4个方面做一些学习和记录</p></li></ul><p>愿 诸事顺遂！！</p></li></ul>]]></content>
     
     
       
@@ -326,12 +356,12 @@
   
   <entry>
     <title>Flutter 学习计划</title>
-    <link href="https://samingzhong.github.io/2022/08/25/Flutter%20%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/"/>
-    <id>https://samingzhong.github.io/2022/08/25/Flutter%20%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/</id>
+    <link href="https://samingzhong.github.io/2022/08/25/%E8%AE%A1%E5%88%92&amp;%E5%AE%8C%E6%88%90/Flutter%20%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/"/>
+    <id>https://samingzhong.github.io/2022/08/25/%E8%AE%A1%E5%88%92&amp;%E5%AE%8C%E6%88%90/Flutter%20%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/</id>
     <published>2022-08-25T09:05:16.000Z</published>
-    <updated>2022-09-14T09:30:40.420Z</updated>
+    <updated>2022-09-29T02:18:40.322Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="一起来玩Flutter-——-完整学习路线解读-掘金"><a href="#一起来玩Flutter-——-完整学习路线解读-掘金" class="headerlink" title="一起来玩Flutter —— 完整学习路线解读 - 掘金"></a><a href="https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjTi-qD0uH5AhWemFYBHcpkBCsQFnoECAwQAQ&url=https://juejin.cn/post/7022246208097746958&usg=AOvVaw2TsnAL-f42O2cwA7wFj61L">一起来玩Flutter —— 完整学习路线解读 - 掘金</a></h2><h2 id="Flutter-原理解析"><a href="#Flutter-原理解析" class="headerlink" title="Flutter 原理解析"></a>Flutter 原理解析</h2><h3 id="10分钟了解Flutter跨平台运行原理！-腾讯云开发者社区"><a href="#10分钟了解Flutter跨平台运行原理！-腾讯云开发者社区" class="headerlink" title="10分钟了解Flutter跨平台运行原理！ - 腾讯云开发者社区"></a><a href="https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiphvit-5P6AhVHz2EKHTvIAJ4QFnoECAoQAQ&url=https://cloud.tencent.com/developer/article/1883377&usg=AOvVaw1Liiu2BOUp7O9skaCpWdHS">10分钟了解Flutter跨平台运行原理！ - 腾讯云开发者社区</a></h3><h3 id="Flutter原理与实践"><a href="#Flutter原理与实践" class="headerlink" title="Flutter原理与实践"></a><a href="https://tech.meituan.com/2018/08/09/waimai-flutter-practice.html">Flutter原理与实践</a></h3><h2 id="Android-Studios-Flutter项目高效配置"><a href="#Android-Studios-Flutter项目高效配置" class="headerlink" title="Android Studios Flutter项目高效配置"></a>Android Studios Flutter项目高效配置</h2><h3 id="你如何处理-Flutter-代码中的缩进和结构？"><a href="#你如何处理-Flutter-代码中的缩进和结构？" class="headerlink" title="你如何处理 Flutter 代码中的缩进和结构？"></a>你如何处理 Flutter 代码中的缩进和结构？</h3><p>Android Studio 提供了工具来简化 Flutter 代码的结构化。主要的两点是：</p><ol><li><strong>Alt + Enter&#x2F; Command + Enter</strong>：这使您可以轻松地包装和删除小部件以及在复杂的层次结构中交换小部件。要使用它，只需将光标指向小部件声明并按下按键即可提供一些选项。这有时感觉像是天赐之物。</li><li><strong>DartFMT</strong>：dartfmt 格式化您的代码以保持干净的层次结构和缩进。在您不小心移动了几个括号后，它会使您的代码更漂亮。</li></ol><p>链接：<a href="https://juejin.cn/post/6998684967668547620">https://juejin.cn/post/6998684967668547620</a><br>来源：稀土掘金</p><h3 id="Dart-点将台-package-包相关知识-掘金"><a href="#Dart-点将台-package-包相关知识-掘金" class="headerlink" title="Dart 点将台| package 包相关知识 - 掘金"></a><a href="https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjT-5HMzev5AhW8plYBHaZyARYQFnoECAUQAQ&url=https://juejin.cn/post/6932640833929740296&usg=AOvVaw2Qlt7bV3uH2fPWnEz29qoG">Dart 点将台| package 包相关知识 - 掘金</a></h3><h2 id="Dart-语言"><a href="#Dart-语言" class="headerlink" title="Dart 语言"></a>Dart 语言</h2><p><a href="https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjoxejH0-v5AhUjUfUHHR8YCxkQFnoECAYQAQ&url=https://blog.51cto.com/jianguo/4334685&usg=AOvVaw0PbGZsiw01Kqy1yWdd0hlP">每个Flutter 开发人员都应该知道的16 个Dart 技巧和窍门</a></p><h3 id="Dart开发的7个技巧"><a href="#Dart开发的7个技巧" class="headerlink" title="Dart开发的7个技巧"></a><a href="https://juejin.cn/post/6999040234335764517">Dart开发的7个技巧</a></h3><h4 id="需要同时执行多个Future吗？使用-Future-wait。"><a href="#需要同时执行多个Future吗？使用-Future-wait。" class="headerlink" title="需要同时执行多个Future吗？使用 Future.wait。"></a>需要同时执行多个Future吗？使用 Future.wait。</h4><h4 id="需要调用回调但前提是它不为空？使用“-call-”语法。"><a href="#需要调用回调但前提是它不为空？使用“-call-”语法。" class="headerlink" title="需要调用回调但前提是它不为空？使用“?.call()”语法。"></a>需要调用回调但前提是它不为空？使用“?.call()”语法。</h4><h4 id="需要以空安全的方式遍历map吗？使用-entries"><a href="#需要以空安全的方式遍历map吗？使用-entries" class="headerlink" title="需要以空安全的方式遍历map吗？使用.entries"></a>需要以空安全的方式遍历map吗？使用<code>.entries</code></h4><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> entry <span class="keyword">in</span> timeSpent.entries) &#123;</span><br><span class="line">  <span class="comment">// do something with keys and values</span></span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&#x27;<span class="subst">$&#123;entry.key&#125;</span>: <span class="subst">$&#123;entry.value&#125;</span>&#x27;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="flutter开发常见的问题"><a href="#flutter开发常见的问题" class="headerlink" title="flutter开发常见的问题"></a><a href="https://juejin.cn/post/6998684967668547620">flutter开发常见的问题</a></h3><h5 id="对未使用的函数参数使用下划线"><a href="#对未使用的函数参数使用下划线" class="headerlink" title="对未使用的函数参数使用下划线"></a>对未使用的函数参数使用下划线</h5><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">ListView.builder(</span><br><span class="line">  itemBuilder: (_, __) =&gt; ListTile(</span><br><span class="line">    title: Text(<span class="string">&#x27;all the same&#x27;</span>),</span><br><span class="line">  ),</span><br><span class="line">  itemCount: <span class="number">10</span>,</span><br><span class="line">)</span><br></pre></td></tr></table></figure><p><em>注意：这两个参数是不同的 (<code>_</code>和<code>__</code>)，因为它们是<strong>单独的标识符</strong>。</em></p><h4 id="需要一个只能实例化一次的类（又名单例）？使用带有私有构造函数的静态实例变量。"><a href="#需要一个只能实例化一次的类（又名单例）？使用带有私有构造函数的静态实例变量。" class="headerlink" title="需要一个只能实例化一次的类（又名单例）？使用带有私有构造函数的静态实例变量。"></a>需要一个只能实例化一次的类（又名单例）？使用带有私有构造函数的静态实例变量。</h4><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// file_system.dart</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">FileSystem</span> </span>&#123;</span><br><span class="line">  FileSystem._();</span><br><span class="line">  <span class="keyword">static</span> <span class="keyword">final</span> instance = FileSystem._();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>要在 Dart 中创建单例，您可以声明一个命名构造函数并使用<code>_</code>语法将其设为私有。</p><p>然后，您可以使用它来创建类的一个静态最终实例。</p><p>因此，其他文件中的任何代码都只能通过<code>instance</code>变量访问此类：</p><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// some_other_file.dart</span></span><br><span class="line"><span class="keyword">final</span> fs = FileSystem.instance;</span><br><span class="line"><span class="comment">// do something with fs</span></span><br></pre></td></tr></table></figure><h4 id="同步和异步生成器"><a href="#同步和异步生成器" class="headerlink" title="同步和异步生成器"></a><a href="https://juejin.cn/post/6999408113942003726#heading-0">同步和异步生成器</a></h4><h3 id="Flutter开发中的一些小技巧整理-知乎专栏"><a href="#Flutter开发中的一些小技巧整理-知乎专栏" class="headerlink" title="Flutter开发中的一些小技巧整理 - 知乎专栏"></a><a href="https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjoxejH0-v5AhUjUfUHHR8YCxkQFnoECAQQAQ&url=https://zhuanlan.zhihu.com/p/357234531&usg=AOvVaw2yo9n0F9sIKaTyhkdDRPw3">Flutter开发中的一些小技巧整理 - 知乎专栏</a></h3><h4 id="等符号妙用"><a href="#等符号妙用" class="headerlink" title="?? 等符号妙用"></a>?? 等符号妙用</h4><p>如果我们需要从一个对象取数据渲染，假如数据为<code>null</code>，那么就会报错一般的方法是判断</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">data.str == <span class="literal">null</span> ? <span class="string">&quot;&quot;</span> : data.str</span><br></pre></td></tr></table></figure><p>但是在用了 dart 语法后，再这么写显得很low，并且也不够美观，dart 提供了 ?? 方法，其结果和上面的一样</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">data.str ?? <span class="string">&quot;&quot;</span></span><br></pre></td></tr></table></figure><p>还有一个是<code>?.</code>它的意思是如果<code>data</code>为 null 就返回 null，不为 null 返回<code>data.str</code>结果</p><p>假如有多级对象嵌套，如果不做判空处理那么 组件会报错，一般是在进行网络请求后渲染数据，但是在更新数据前我们不想去做 loading 处理</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Text(data?.info?.name ?? <span class="string">&quot;&quot;</span>);</span><br><span class="line"><span class="comment">//相当于</span></span><br><span class="line">Text(data != <span class="literal">null</span> &amp;&amp; data.info != <span class="literal">null</span> &amp;&amp; data.info.name != <span class="literal">null</span></span><br><span class="line">                                ? data.info.name</span><br><span class="line">                                : <span class="string">&quot;&quot;</span>),</span><br></pre></td></tr></table></figure><p>这样写是不是代码简洁了很多？</p><h2 id="Flutter-Widgets"><a href="#Flutter-Widgets" class="headerlink" title="Flutter Widgets"></a>Flutter Widgets</h2><h2 id="状态管理"><a href="#状态管理" class="headerlink" title="状态管理"></a>状态管理</h2><h2 id="网络请求"><a href="#网络请求" class="headerlink" title="网络请求"></a>网络请求</h2><h2 id="页面导航"><a href="#页面导航" class="headerlink" title="页面导航"></a>页面导航</h2><h2 id="数据存储"><a href="#数据存储" class="headerlink" title="数据存储"></a>数据存储</h2><h2 id="动画"><a href="#动画" class="headerlink" title="动画"></a>动画</h2><h2 id="响应式编程"><a href="#响应式编程" class="headerlink" title="响应式编程"></a>响应式编程</h2><h1 id><a href="#" class="headerlink" title></a></h1>]]></content>
+    <content type="html"><![CDATA[<h2 id="一起来玩Flutter-——-完整学习路线解读-掘金"><a href="#一起来玩Flutter-——-完整学习路线解读-掘金" class="headerlink" title="一起来玩Flutter —— 完整学习路线解读 - 掘金"></a><a href="https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjTi-qD0uH5AhWemFYBHcpkBCsQFnoECAwQAQ&url=https://juejin.cn/post/7022246208097746958&usg=AOvVaw2TsnAL-f42O2cwA7wFj61L">一起来玩Flutter —— 完整学习路线解读 - 掘金</a></h2><h2 id="Flutter-原理解析"><a href="#Flutter-原理解析" class="headerlink" title="Flutter 原理解析"></a>Flutter 原理解析</h2><h2 id="Flutter-官方链接"><a href="#Flutter-官方链接" class="headerlink" title="Flutter 官方链接"></a>Flutter 官方链接</h2><h3 id="Flutter-开发文档-https-flutter-cn-docs"><a href="#Flutter-开发文档-https-flutter-cn-docs" class="headerlink" title="Flutter 开发文档 https://flutter.cn/docs"></a>Flutter 开发文档 <a href="https://flutter.cn/docs">https://flutter.cn/docs</a></h3><ul><li><a href="https://flutter.cn/docs/reference/widgets">Flutter Widget 目录</a></li><li><a href="https://api.flutter-io.cn/">Flutter API 文档open_in_new</a></li><li><a href="https://flutter.cn/docs/reference/flutter-cli">flutter 命令行文档</a> </li><li><a href="https://pub.flutter-io.cn/flutter">Package 网站 </a></li></ul><h3 id="Flutter-官方Q-amp-A-https-flutter-cn-docs-resources-faq"><a href="#Flutter-官方Q-amp-A-https-flutter-cn-docs-resources-faq" class="headerlink" title="Flutter 官方Q&amp;A  https://flutter.cn/docs/resources/faq"></a>Flutter 官方Q&amp;A  <a href="https://flutter.cn/docs/resources/faq">https://flutter.cn/docs/resources/faq</a></h3><h3 id="10分钟了解Flutter跨平台运行原理！-腾讯云开发者社区"><a href="#10分钟了解Flutter跨平台运行原理！-腾讯云开发者社区" class="headerlink" title="10分钟了解Flutter跨平台运行原理！ - 腾讯云开发者社区"></a><a href="https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiphvit-5P6AhVHz2EKHTvIAJ4QFnoECAoQAQ&url=https://cloud.tencent.com/developer/article/1883377&usg=AOvVaw1Liiu2BOUp7O9skaCpWdHS">10分钟了解Flutter跨平台运行原理！ - 腾讯云开发者社区</a></h3><h3 id="Flutter原理与实践"><a href="#Flutter原理与实践" class="headerlink" title="Flutter原理与实践"></a><a href="https://tech.meituan.com/2018/08/09/waimai-flutter-practice.html">Flutter原理与实践</a></h3><h2 id="Android-Studios-Flutter项目高效配置"><a href="#Android-Studios-Flutter项目高效配置" class="headerlink" title="Android Studios Flutter项目高效配置"></a>Android Studios Flutter项目高效配置</h2><h3 id="你如何处理-Flutter-代码中的缩进和结构？"><a href="#你如何处理-Flutter-代码中的缩进和结构？" class="headerlink" title="你如何处理 Flutter 代码中的缩进和结构？"></a>你如何处理 Flutter 代码中的缩进和结构？</h3><p>Android Studio 提供了工具来简化 Flutter 代码的结构化。主要的两点是：</p><ol><li><strong>Alt + Enter&#x2F; Command + Enter</strong>：这使您可以轻松地包装和删除小部件以及在复杂的层次结构中交换小部件。要使用它，只需将光标指向小部件声明并按下按键即可提供一些选项。这有时感觉像是天赐之物。</li><li><strong>DartFMT</strong>：dartfmt 格式化您的代码以保持干净的层次结构和缩进。在您不小心移动了几个括号后，它会使您的代码更漂亮。</li></ol><p>链接：<a href="https://juejin.cn/post/6998684967668547620">https://juejin.cn/post/6998684967668547620</a><br>来源：稀土掘金</p><h3 id="Dart-点将台-package-包相关知识-掘金"><a href="#Dart-点将台-package-包相关知识-掘金" class="headerlink" title="Dart 点将台| package 包相关知识 - 掘金"></a><a href="https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjT-5HMzev5AhW8plYBHaZyARYQFnoECAUQAQ&url=https://juejin.cn/post/6932640833929740296&usg=AOvVaw2Qlt7bV3uH2fPWnEz29qoG">Dart 点将台| package 包相关知识 - 掘金</a></h3><h2 id="Dart-语言"><a href="#Dart-语言" class="headerlink" title="Dart 语言"></a>Dart 语言</h2><p><a href="https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjoxejH0-v5AhUjUfUHHR8YCxkQFnoECAYQAQ&url=https://blog.51cto.com/jianguo/4334685&usg=AOvVaw0PbGZsiw01Kqy1yWdd0hlP">每个Flutter 开发人员都应该知道的16 个Dart 技巧和窍门</a></p><h3 id="Dart开发的7个技巧"><a href="#Dart开发的7个技巧" class="headerlink" title="Dart开发的7个技巧"></a><a href="https://juejin.cn/post/6999040234335764517">Dart开发的7个技巧</a></h3><h4 id="需要同时执行多个Future吗？使用-Future-wait。"><a href="#需要同时执行多个Future吗？使用-Future-wait。" class="headerlink" title="需要同时执行多个Future吗？使用 Future.wait。"></a>需要同时执行多个Future吗？使用 Future.wait。</h4><h4 id="需要调用回调但前提是它不为空？使用“-call-”语法。"><a href="#需要调用回调但前提是它不为空？使用“-call-”语法。" class="headerlink" title="需要调用回调但前提是它不为空？使用“?.call()”语法。"></a>需要调用回调但前提是它不为空？使用“?.call()”语法。</h4><h4 id="需要以空安全的方式遍历map吗？使用-entries"><a href="#需要以空安全的方式遍历map吗？使用-entries" class="headerlink" title="需要以空安全的方式遍历map吗？使用.entries"></a>需要以空安全的方式遍历map吗？使用<code>.entries</code></h4><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> entry <span class="keyword">in</span> timeSpent.entries) &#123;</span><br><span class="line">  <span class="comment">// do something with keys and values</span></span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&#x27;<span class="subst">$&#123;entry.key&#125;</span>: <span class="subst">$&#123;entry.value&#125;</span>&#x27;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="flutter开发常见的问题"><a href="#flutter开发常见的问题" class="headerlink" title="flutter开发常见的问题"></a><a href="https://juejin.cn/post/6998684967668547620">flutter开发常见的问题</a></h3><h5 id="对未使用的函数参数使用下划线"><a href="#对未使用的函数参数使用下划线" class="headerlink" title="对未使用的函数参数使用下划线"></a>对未使用的函数参数使用下划线</h5><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">ListView.builder(</span><br><span class="line">  itemBuilder: (_, __) =&gt; ListTile(</span><br><span class="line">    title: Text(<span class="string">&#x27;all the same&#x27;</span>),</span><br><span class="line">  ),</span><br><span class="line">  itemCount: <span class="number">10</span>,</span><br><span class="line">)</span><br></pre></td></tr></table></figure><p><em>注意：这两个参数是不同的 (<code>_</code>和<code>__</code>)，因为它们是<strong>单独的标识符</strong>。</em></p><h4 id="需要一个只能实例化一次的类（又名单例）？使用带有私有构造函数的静态实例变量。"><a href="#需要一个只能实例化一次的类（又名单例）？使用带有私有构造函数的静态实例变量。" class="headerlink" title="需要一个只能实例化一次的类（又名单例）？使用带有私有构造函数的静态实例变量。"></a>需要一个只能实例化一次的类（又名单例）？使用带有私有构造函数的静态实例变量。</h4><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// file_system.dart</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">FileSystem</span> </span>&#123;</span><br><span class="line">  FileSystem._();</span><br><span class="line">  <span class="keyword">static</span> <span class="keyword">final</span> instance = FileSystem._();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>要在 Dart 中创建单例，您可以声明一个命名构造函数并使用<code>_</code>语法将其设为私有。</p><p>然后，您可以使用它来创建类的一个静态最终实例。</p><p>因此，其他文件中的任何代码都只能通过<code>instance</code>变量访问此类：</p><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// some_other_file.dart</span></span><br><span class="line"><span class="keyword">final</span> fs = FileSystem.instance;</span><br><span class="line"><span class="comment">// do something with fs</span></span><br></pre></td></tr></table></figure><h4 id="同步和异步生成器"><a href="#同步和异步生成器" class="headerlink" title="同步和异步生成器"></a><a href="https://juejin.cn/post/6999408113942003726#heading-0">同步和异步生成器</a></h4><h3 id="Flutter开发中的一些小技巧整理-知乎专栏"><a href="#Flutter开发中的一些小技巧整理-知乎专栏" class="headerlink" title="Flutter开发中的一些小技巧整理 - 知乎专栏"></a><a href="https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjoxejH0-v5AhUjUfUHHR8YCxkQFnoECAQQAQ&url=https://zhuanlan.zhihu.com/p/357234531&usg=AOvVaw2yo9n0F9sIKaTyhkdDRPw3">Flutter开发中的一些小技巧整理 - 知乎专栏</a></h3><h4 id="等符号妙用"><a href="#等符号妙用" class="headerlink" title="?? 等符号妙用"></a>?? 等符号妙用</h4><p>如果我们需要从一个对象取数据渲染，假如数据为<code>null</code>，那么就会报错一般的方法是判断</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">data.str == <span class="literal">null</span> ? <span class="string">&quot;&quot;</span> : data.str</span><br></pre></td></tr></table></figure><p>但是在用了 dart 语法后，再这么写显得很low，并且也不够美观，dart 提供了 ?? 方法，其结果和上面的一样</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">data.str ?? <span class="string">&quot;&quot;</span></span><br></pre></td></tr></table></figure><p>还有一个是<code>?.</code>它的意思是如果<code>data</code>为 null 就返回 null，不为 null 返回<code>data.str</code>结果</p><p>假如有多级对象嵌套，如果不做判空处理那么 组件会报错，一般是在进行网络请求后渲染数据，但是在更新数据前我们不想去做 loading 处理</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Text(data?.info?.name ?? <span class="string">&quot;&quot;</span>);</span><br><span class="line"><span class="comment">//相当于</span></span><br><span class="line">Text(data != <span class="literal">null</span> &amp;&amp; data.info != <span class="literal">null</span> &amp;&amp; data.info.name != <span class="literal">null</span></span><br><span class="line">                                ? data.info.name</span><br><span class="line">                                : <span class="string">&quot;&quot;</span>),</span><br></pre></td></tr></table></figure><p>这样写是不是代码简洁了很多？</p><h2 id="Flutter-Widgets"><a href="#Flutter-Widgets" class="headerlink" title="Flutter Widgets"></a>Flutter Widgets</h2><h2 id="状态管理"><a href="#状态管理" class="headerlink" title="状态管理"></a>状态管理</h2><h2 id="网络请求"><a href="#网络请求" class="headerlink" title="网络请求"></a>网络请求</h2><h2 id="页面导航"><a href="#页面导航" class="headerlink" title="页面导航"></a>页面导航</h2><h2 id="数据存储"><a href="#数据存储" class="headerlink" title="数据存储"></a>数据存储</h2><h2 id="动画"><a href="#动画" class="headerlink" title="动画"></a>动画</h2><h2 id="响应式编程"><a href="#响应式编程" class="headerlink" title="响应式编程"></a>响应式编程</h2><h1 id=""><a href="#" class="headerlink" title=""></a></h1>]]></content>
     
     
       
@@ -344,12 +374,14 @@
     
     <category term="Flutter" scheme="https://samingzhong.github.io/tags/Flutter/"/>
     
+    <category term="计划&amp;完成" scheme="https://samingzhong.github.io/tags/%E8%AE%A1%E5%88%92-%E5%AE%8C%E6%88%90/"/>
+    
   </entry>
   
   <entry>
     <title>Flutter相关优秀书籍、文章</title>
-    <link href="https://samingzhong.github.io/2022/08/25/Flutter%E7%9B%B8%E5%85%B3%E4%BC%98%E7%A7%80%E4%B9%A6%E7%B1%8D%E3%80%81%E6%96%87%E7%AB%A0/"/>
-    <id>https://samingzhong.github.io/2022/08/25/Flutter%E7%9B%B8%E5%85%B3%E4%BC%98%E7%A7%80%E4%B9%A6%E7%B1%8D%E3%80%81%E6%96%87%E7%AB%A0/</id>
+    <link href="https://samingzhong.github.io/2022/08/25/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/Flutter/Flutter%E7%9B%B8%E5%85%B3%E4%BC%98%E7%A7%80%E4%B9%A6%E7%B1%8D%E3%80%81%E6%96%87%E7%AB%A0/"/>
+    <id>https://samingzhong.github.io/2022/08/25/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/Flutter/Flutter%E7%9B%B8%E5%85%B3%E4%BC%98%E7%A7%80%E4%B9%A6%E7%B1%8D%E3%80%81%E6%96%87%E7%AB%A0/</id>
     <published>2022-08-25T08:55:18.000Z</published>
     <updated>2022-08-29T01:54:29.544Z</updated>
     
@@ -369,8 +401,8 @@
   
   <entry>
     <title>Flutter Widget</title>
-    <link href="https://samingzhong.github.io/2022/08/25/Flutter%20Widget/"/>
-    <id>https://samingzhong.github.io/2022/08/25/Flutter%20Widget/</id>
+    <link href="https://samingzhong.github.io/2022/08/25/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/Flutter/Flutter%20Widget/"/>
+    <id>https://samingzhong.github.io/2022/08/25/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/Flutter/Flutter%20Widget/</id>
     <published>2022-08-25T08:27:02.000Z</published>
     <updated>2022-08-29T02:51:34.223Z</updated>
     
@@ -386,12 +418,12 @@
   
   <entry>
     <title>Flutter 开发Q&amp;A</title>
-    <link href="https://samingzhong.github.io/2022/08/25/Flutter%20%E5%BC%80%E5%8F%91Q&amp;A/"/>
-    <id>https://samingzhong.github.io/2022/08/25/Flutter%20%E5%BC%80%E5%8F%91Q&amp;A/</id>
+    <link href="https://samingzhong.github.io/2022/08/25/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/Flutter/Flutter%20%E5%BC%80%E5%8F%91Q&amp;A/"/>
+    <id>https://samingzhong.github.io/2022/08/25/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/Flutter/Flutter%20%E5%BC%80%E5%8F%91Q&amp;A/</id>
     <published>2022-08-25T05:52:03.000Z</published>
-    <updated>2022-09-14T09:49:53.763Z</updated>
+    <updated>2022-09-21T07:09:44.168Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="Everything-is-a-Widget"><a href="#Everything-is-a-Widget" class="headerlink" title="Everything is a Widget"></a>Everything is a Widget</h3><p>一切皆组件</p><h3 id="WebView与原生Flutter的交互"><a href="#WebView与原生Flutter的交互" class="headerlink" title="WebView与原生Flutter的交互"></a>WebView与原生Flutter的交互</h3><h3 id="Flutter转场卡顿"><a href="#Flutter转场卡顿" class="headerlink" title="Flutter转场卡顿"></a>Flutter转场卡顿</h3><ol><li><p>转场动画加上页面初始化&#x2F;销毁中较复杂的操作（一般涉及到IO或者比较消耗CPU的计算），可能会引起页面卡顿。</p><p>解决方案</p><blockquote><ol><li>退出页面卡顿：找出导致卡顿的代码，并做异步线程调用或者延迟调用，或者调用后，延迟退出页面。</li><li>进入页面卡顿：找出导致卡顿的代码，并做异步线程调用或者延迟调用，相关数据等待可以加loading。</li></ol></blockquote></li><li><p>动画卡顿</p><ol><li>当前机器发热严重，CPU&#x2F;GPU处于降频期间。</li></ol></li></ol><h3 id="Flutter-切圆角-ClipRRect"><a href="#Flutter-切圆角-ClipRRect" class="headerlink" title="Flutter 切圆角 ClipRRect"></a>Flutter 切圆角 ClipRRect</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ClipRRect</span><br></pre></td></tr></table></figure><h3 id="Could-not-run-build-x2F-ios-x2F-iphoneos-x2F-Runner-app-Try-launching-Xcode-and-selecting-“Product-gt-Run”-to-fix-the-problem-107760"><a href="#Could-not-run-build-x2F-ios-x2F-iphoneos-x2F-Runner-app-Try-launching-Xcode-and-selecting-“Product-gt-Run”-to-fix-the-problem-107760" class="headerlink" title="Could not run build&#x2F;ios&#x2F;iphoneos&#x2F;Runner.app, Try launching Xcode and selecting “Product &gt; Run” to fix the problem #107760"></a>Could not run build&#x2F;ios&#x2F;iphoneos&#x2F;Runner.app, Try launching Xcode and selecting “Product &gt; Run” to fix the problem #107760</h3><p><a href="https://github.com/flutter/flutter/issues/107760">https://github.com/flutter/flutter/issues/107760</a></p><p><a href="https://juejin.cn/post/7104133574739099684">https://juejin.cn/post/7104133574739099684</a></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="Everything-is-a-Widget"><a href="#Everything-is-a-Widget" class="headerlink" title="Everything is a Widget"></a>Everything is a Widget</h3><p>一切皆组件</p><h3 id="WebView与原生Flutter的交互"><a href="#WebView与原生Flutter的交互" class="headerlink" title="WebView与原生Flutter的交互"></a>WebView与原生Flutter的交互</h3><h3 id="Flutter转场卡顿"><a href="#Flutter转场卡顿" class="headerlink" title="Flutter转场卡顿"></a>Flutter转场卡顿</h3><ol><li><p>转场动画加上页面初始化&#x2F;销毁中较复杂的操作（一般涉及到IO或者比较消耗CPU的计算），可能会引起页面卡顿。</p><p>解决方案</p><blockquote><ol><li>退出页面卡顿：找出导致卡顿的代码，并做异步线程调用或者延迟调用，或者调用后，延迟退出页面。</li><li>进入页面卡顿：找出导致卡顿的代码，并做异步线程调用或者延迟调用，相关数据等待可以加loading。</li></ol></blockquote></li><li><p>动画卡顿</p><ol><li>当前机器发热严重，CPU&#x2F;GPU处于降频期间。</li></ol></li></ol><h3 id="Flutter-切圆角-ClipRRect"><a href="#Flutter-切圆角-ClipRRect" class="headerlink" title="Flutter 切圆角 ClipRRect"></a>Flutter 切圆角 ClipRRect</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ClipRRect</span><br></pre></td></tr></table></figure><h3 id="Could-not-run-build-x2F-ios-x2F-iphoneos-x2F-Runner-app-Try-launching-Xcode-and-selecting-“Product-gt-Run”-to-fix-the-problem-107760"><a href="#Could-not-run-build-x2F-ios-x2F-iphoneos-x2F-Runner-app-Try-launching-Xcode-and-selecting-“Product-gt-Run”-to-fix-the-problem-107760" class="headerlink" title="Could not run build&#x2F;ios&#x2F;iphoneos&#x2F;Runner.app, Try launching Xcode and selecting “Product &gt; Run” to fix the problem #107760"></a>Could not run build&#x2F;ios&#x2F;iphoneos&#x2F;Runner.app, Try launching Xcode and selecting “Product &gt; Run” to fix the problem #107760</h3><p><a href="https://github.com/flutter/flutter/issues/107760">https://github.com/flutter/flutter/issues/107760</a></p><p><a href="https://juejin.cn/post/7104133574739099684">https://juejin.cn/post/7104133574739099684</a></p><p>最后，完全执行（多个目录下）Flutter clean后，重新run起来了。</p><h3 id="Xcode打包生成ipa四个选项的具体区别"><a href="#Xcode打包生成ipa四个选项的具体区别" class="headerlink" title="Xcode打包生成ipa四个选项的具体区别"></a>Xcode打包生成ipa四个选项的具体区别</h3><p><a href="https://www.jianshu.com/p/94e581861707">https://www.jianshu.com/p/94e581861707</a></p><h3 id="Flutter-路由管理-https-book-flutterchina-club-chapter2-flutter-router-html"><a href="#Flutter-路由管理-https-book-flutterchina-club-chapter2-flutter-router-html" class="headerlink" title="Flutter 路由管理 https://book.flutterchina.club/chapter2/flutter_router.html"></a>Flutter 路由管理 <a href="https://book.flutterchina.club/chapter2/flutter_router.html">https://book.flutterchina.club/chapter2/flutter_router.html</a></h3><p>路由，在移动开发中就是页面，比如iOS的ViewController， Android的Activity。</p><p>路由管理，则是会维护一个路由列表。常见的方法就是push（进入一个页面），pop（退出页面）。</p>]]></content>
     
     
       
@@ -401,48 +433,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>移动开发技术-Flutter学习开篇</title>
-    <link href="https://samingzhong.github.io/2022/08/24/Flutter%E5%AD%A6%E4%B9%A0%E5%BC%80%E7%AF%87/"/>
-    <id>https://samingzhong.github.io/2022/08/24/Flutter%E5%AD%A6%E4%B9%A0%E5%BC%80%E7%AF%87/</id>
-    <published>2022-08-24T08:55:18.000Z</published>
-    <updated>2022-08-29T01:54:29.544Z</updated>
-    
-    <content type="html"><![CDATA[<p>  从2015年开始至今，一直从事iOS原生开发，跨平台技术也一直在发展，从刚开始的H5技术到2014年Facebook推出的RN，然后到2017年Google推出的Flutter，一直到现在Flutter这个后起之秀，无论是开发体验还是应用性能，已经是跨平台的主流技术了，今年（2022年）有机会学习这门技术，挺振奋人心的。对于iOS开发者而言，UI的调试是一个较为低效、繁琐的工作，UI code –》rebuild –〉UI code –》rebuild，如此循环，每改动一次代码，都需要重新编译，然后进入到相应的UI界面，验证代码效果。而Flutter Debug模式下则可以非常方便的热更（hot reload），你的改动，可以近乎实时的触发UI重绘，事实上，你所改动的视图文件，hot reload后，UI的更新也仅限于相应的视图，而不是所有视图，这大大提高了开发效率！</p><p>  今年6月，由于工作需要以及自己对Flutter技能的学习需求，开始了Flutterr学习之旅，本文作为开篇，目的记录Flutter开发中的经验总结。</p><p>  愿诸事顺遂。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;  从2015年开始至今，一直从事iOS原生开发，跨平台技术也一直在发展，从刚开始的H5技术到2014年Facebook推出的RN，然后到2017年Google推出的Flutter，一直到现在Flutter这个后起之秀，无论是开发体验还是应用性能，已经是跨平台的主流技术了，</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo建站Q&amp;A</title>
-    <link href="https://samingzhong.github.io/2022/07/23/hexo/hexo-helper/"/>
-    <id>https://samingzhong.github.io/2022/07/23/hexo/hexo-helper/</id>
-    <published>2022-07-23T06:45:18.000Z</published>
-    <updated>2022-08-29T01:54:29.544Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Hexo官方介绍"><a href="#Hexo官方介绍" class="headerlink" title="Hexo官方介绍"></a><a href="https://hexo.io/zh-cn/">Hexo官方介绍</a></h3><h3 id="Hexo建站基础篇"><a href="#Hexo建站基础篇" class="headerlink" title="Hexo建站基础篇"></a><a href="http://hanyu.fit/2021/06/17/%E8%AE%B0%20---%20%E5%85%B3%E4%BA%8E%E8%BF%91%E6%AE%B5%E6%97%B6%E9%97%B4%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%80%BB%E7%BB%93(Hexo%E5%BB%BA%E7%AB%99%20--%20%E5%9F%BA%E7%A1%80%E7%AF%87-%E6%90%AD%E5%BB%BA%E7%8E%AF%E5%A2%83)/">Hexo建站基础篇</a></h3><h3 id="添加文章目录"><a href="#添加文章目录" class="headerlink" title="添加文章目录"></a><a href="https://xyzardq.github.io/2016/11/04/Hexo%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95/">添加文章目录</a></h3><h3 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a><a href="https://zhuanlan.zhihu.com/p/137338730">更换主题</a></h3><h3 id="新增RSS订阅"><a href="#新增RSS订阅" class="headerlink" title="新增RSS订阅"></a><a href="https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwioobuwtOH5AhXnt1YBHThrBVkQFnoECAYQAw&url=https://zhuanlan.zhihu.com/p/392900543&usg=AOvVaw2yK-opF-gOHYXKevVeXYPH">新增RSS订阅</a></h3><p>该博主hexo相关文章（建站、使用）<a href="https://www.zhihu.com/column/c_1402548025064128512">hexo相关</a>.   </p><h3 id="设置定时任务"><a href="#设置定时任务" class="headerlink" title="设置定时任务"></a><a href="https://tooltt.com/crontab/c/118.html">设置定时任务</a></h3><p>需求：</p><ol><li>每天晚上8点定时备份blog</li><li>每隔10天定时发布（更新）blog，并备份blog</li></ol><blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt;<span class="comment">#for test</span></span><br><span class="line">&gt;50 15 * * * bash <span class="variable">$HOME</span>/blog/.scripts/deploy_and_backup_blog.sh&gt;&gt;<span class="variable">$HOME</span>/blog/deployment.log</span><br><span class="line">&gt;<span class="comment">#release </span></span><br><span class="line">&gt;00 20 */10 * * bash <span class="variable">$HOME</span>/blog/.scripts/deploy_and_backup_blog.sh&gt;&gt;<span class="variable">$HOME</span>/blog/deployment.log</span><br><span class="line"></span><br></pre></td></tr></table></figure></blockquote><h3 id="便捷脚本、别名"><a href="#便捷脚本、别名" class="headerlink" title="便捷脚本、别名"></a>便捷脚本、别名</h3><h4 id="1-终端命令创建一个新的markdown文件，并使用Typora打开它。"><a href="#1-终端命令创建一个新的markdown文件，并使用Typora打开它。" class="headerlink" title="1.终端命令创建一个新的markdown文件，并使用Typora打开它。"></a>1.终端命令创建一个新的markdown文件，并使用Typora打开它。</h4><blockquote> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">post_name=<span class="string">&quot;<span class="variable">$1</span>&quot;</span></span><br><span class="line"><span class="built_in">cd</span> ~/blog</span><br><span class="line">hexo new <span class="variable">$post_name</span></span><br><span class="line"><span class="built_in">echo</span> ~/blog/source/_posts/<span class="variable">$post_name</span></span><br><span class="line">/Applications/Typora.app/Contents/MacOS/Typora ~/blog/source/_posts/<span class="variable">$post_name</span>.md &amp;</span><br></pre></td></tr></table></figure></blockquote><h4 id="2-创建别名，便捷调用命令"><a href="#2-创建别名，便捷调用命令" class="headerlink" title="2.创建别名，便捷调用命令"></a>2.创建别名，便捷调用命令</h4><blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">. <span class="string">&quot;<span class="variable">$HOME</span>/.cargo/env&quot;</span></span><br><span class="line"><span class="built_in">alias</span> hexonew=<span class="string">&#x27;$HOME/blog/.scripts/blog_new.sh&#x27;</span></span><br><span class="line"><span class="built_in">alias</span> hexog=<span class="string">&#x27;cd $HOME/blog/;hexo g&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 生成+发布</span></span><br><span class="line"><span class="built_in">alias</span> hexod=<span class="string">&#x27;cd $HOME/blog/;hexo g -d&#x27;</span></span><br><span class="line"><span class="comment"># 生成+备份</span></span><br><span class="line"><span class="built_in">alias</span> hexob=<span class="string">&#x27;cd $HOME/blog/;hexo g;bash $HOME/blog/.scripts/autoUpload.sh&#x27;</span></span><br><span class="line"><span class="comment"># 生成+发布+备份</span></span><br><span class="line"><span class="built_in">alias</span> hexodd=<span class="string">&#x27;bash $HOME/blog/.scripts/deploy_and_backup_blog.sh&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> hexos=<span class="string">&#x27;cd $HOME/blog/;hexo s&#x27;</span></span><br></pre></td></tr></table></figure></blockquote><h3 id="文章中插入本地图片（仓库图片）"><a href="#文章中插入本地图片（仓库图片）" class="headerlink" title="文章中插入本地图片（仓库图片）"></a>文章中插入本地图片（仓库图片）<a href="https://hexo.io/zh-cn/docs/asset-folders.html"></a></h3>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;Hexo官方介绍&quot;&gt;&lt;a href=&quot;#Hexo官方介绍&quot; class=&quot;headerlink&quot; title=&quot;Hexo官方介绍&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://hexo.io/zh-cn/&quot;&gt;Hexo官方介绍&lt;/a&gt;&lt;/h3&gt;&lt;h3 id=&quot;Hexo</summary>
-      
-    
-    
-    
-    
-    <category term="Hexo" scheme="https://samingzhong.github.io/tags/Hexo/"/>
     
   </entry>
   
