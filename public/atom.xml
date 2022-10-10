@@ -6,7 +6,7 @@
   <link href="https://samingzhong.github.io/atom.xml" rel="self"/>
   
   <link href="https://samingzhong.github.io/"/>
-  <updated>2022-09-29T02:20:33.257Z</updated>
+  <updated>2022-10-10T16:15:41.046Z</updated>
   <id>https://samingzhong.github.io/</id>
   
   <author>
@@ -17,17 +17,48 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Swift知识点备忘</title>
-    <link href="https://samingzhong.github.io/2022/09/29/Swift%E7%9F%A5%E8%AF%86%E7%82%B9%E5%A4%87%E5%BF%98/"/>
-    <id>https://samingzhong.github.io/2022/09/29/Swift%E7%9F%A5%E8%AF%86%E7%82%B9%E5%A4%87%E5%BF%98/</id>
-    <published>2022-09-29T02:20:33.000Z</published>
-    <updated>2022-09-29T02:20:33.257Z</updated>
+    <title>10月有感</title>
+    <link href="https://samingzhong.github.io/2022/10/11/10%E6%9C%88%E6%9C%89%E6%84%9F/"/>
+    <id>https://samingzhong.github.io/2022/10/11/10%E6%9C%88%E6%9C%89%E6%84%9F/</id>
+    <published>2022-10-10T16:14:40.000Z</published>
+    <updated>2022-10-10T16:15:41.046Z</updated>
     
+    <content type="html"><![CDATA[<p>10月份，是一个关键，动荡的月份。</p><p>愿诸事顺遂！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;10月份，是一个关键，动荡的月份。&lt;/p&gt;
+&lt;p&gt;愿诸事顺遂！&lt;/p&gt;
+</summary>
+      
     
     
     
     
     <category term="未定义" scheme="https://samingzhong.github.io/tags/%E6%9C%AA%E5%AE%9A%E4%B9%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Swift知识点备忘</title>
+    <link href="https://samingzhong.github.io/2022/09/29/Swift%E7%9F%A5%E8%AF%86%E7%82%B9%E5%A4%87%E5%BF%98/"/>
+    <id>https://samingzhong.github.io/2022/09/29/Swift%E7%9F%A5%E8%AF%86%E7%82%B9%E5%A4%87%E5%BF%98/</id>
+    <published>2022-09-29T02:20:33.000Z</published>
+    <updated>2022-10-10T16:09:48.096Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="语法相关"><a href="#语法相关" class="headerlink" title="语法相关"></a>语法相关</h2><h3 id="类"><a href="#类" class="headerlink" title="类"></a>类</h3><h3 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h3><h4 id="命名参数、命名可选参数、默认参数。"><a href="#命名参数、命名可选参数、默认参数。" class="headerlink" title="命名参数、命名可选参数、默认参数。"></a>命名参数、命名可选参数、默认参数。</h4><p>命名参数</p><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">func</span> <span class="title function_">functionNameA</span>(<span class="params">lableA</span> <span class="params">a</span>:<span class="type">String</span>, labelB b <span class="type">String</span>) -&gt; <span class="type">Type</span> &#123;&#125;</span><br></pre></td></tr></table></figure><h2 id="数据转化"><a href="#数据转化" class="headerlink" title="数据转化"></a>数据转化</h2><p>一般来说，就是JSON字符串转为我们自定义的类。过程大概是：</p><blockquote><p><strong>JSON字符串-》字典（或数组）-〉转为自定义对象（自定义对象数组）</strong></p></blockquote><p>JSON转为字典，iOS Swift 中使用 JSONSerialization.jsonObject(with: data, …) 传入字符串的Data格式数据即可。</p><h3 id="JSON结构类型只有两种：对象结构和数组结构"><a href="#JSON结构类型只有两种：对象结构和数组结构" class="headerlink" title="JSON结构类型只有两种：对象结构和数组结构"></a>JSON结构类型只有两种：对象结构和数组结构</h3><p>JSON定义:<a href="https://www.json.org/json-zh.html">https://www.json.org/json-zh.html</a> </p><p>对象结构:</p><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="string">&quot;name&quot;</span>: <span class="string">&quot;zhongxm&quot;</span>,</span><br><span class="line">  <span class="string">&quot;age&quot;</span>: <span class="number">30</span>,</span><br><span class="line">  <span class="string">&quot;sex&quot;</span>: <span class="number">1</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>数组结构:</p><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">[</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;name&quot;</span>: <span class="string">&quot;zhongxm&quot;</span>,</span><br><span class="line">    <span class="string">&quot;age&quot;</span>: <span class="number">30</span>,</span><br><span class="line">    <span class="string">&quot;sex&quot;</span>: <span class="number">1</span></span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;name&quot;</span>: <span class="string">&quot;zhongyi&quot;</span>,</span><br><span class="line">    <span class="string">&quot;age&quot;</span>: <span class="number">5</span>,</span><br><span class="line">    <span class="string">&quot;sex&quot;</span>: <span class="number">1</span></span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;name&quot;</span>: <span class="string">&quot;lxy&quot;</span>,</span><br><span class="line">    <span class="string">&quot;age&quot;</span>: <span class="number">30</span>,</span><br><span class="line">    <span class="string">&quot;sex&quot;</span>: <span class="number">1</span></span><br><span class="line">  &#125;</span><br><span class="line">]</span><br></pre></td></tr></table></figure><p>然后就是字典转Model，第三方：阿里HandyJSON</p><p>原生写法：Model 实现Codable协议，字典转JSON Data，JSONDecoder把 JSON Data转为指定的model类（会用到Codable协议实现）</p><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">MyPerson</span> : <span class="title class_">Codable</span> &#123;</span><br><span class="line">    <span class="keyword">let</span> name:<span class="type">String</span></span><br><span class="line">    <span class="keyword">let</span> age:<span class="type">Int</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">func</span> <span class="title function_">DictToModel</span>(<span class="params">dict</span>:[<span class="params">String</span>:<span class="keyword">Any</span>]<span class="operator">?</span>) -&gt; <span class="keyword">Any</span><span class="operator">?</span> &#123;</span><br><span class="line">    <span class="keyword">let</span> dic <span class="operator">=</span> [<span class="string">&quot;name&quot;</span>:<span class="string">&quot;zhongxm&quot;</span>, <span class="string">&quot;age&quot;</span>:<span class="number">31</span>] <span class="keyword">as</span> [<span class="type">String</span> : <span class="keyword">Any</span>]</span><br><span class="line">    <span class="keyword">do</span> &#123;</span><br><span class="line">        <span class="keyword">let</span> json <span class="operator">=</span> <span class="keyword">try</span> <span class="type">JSONSerialization</span>.data(withJSONObject: dic)</span><br><span class="line">        <span class="keyword">let</span> decoder <span class="operator">=</span> <span class="type">JSONDecoder</span>()</span><br><span class="line">        decoder.keyDecodingStrategy <span class="operator">=</span> .convertFromSnakeCase</span><br><span class="line">        <span class="keyword">let</span> model <span class="operator">=</span> <span class="keyword">try</span> decoder.decode(<span class="type">MyPerson</span>.<span class="keyword">self</span>, from: json)</span><br><span class="line">        <span class="keyword">return</span> model</span><br><span class="line">    &#125; <span class="keyword">catch</span> <span class="keyword">let</span> error &#123;</span><br><span class="line">        <span class="built_in">print</span>(error.localizedDescription)</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="literal">nil</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="第三方-阿里HandyJSON"><a href="#第三方-阿里HandyJSON" class="headerlink" title="第三方 阿里HandyJSON"></a>第三方 阿里HandyJSON</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;语法相关&quot;&gt;&lt;a href=&quot;#语法相关&quot; class=&quot;headerlink&quot; title=&quot;语法相关&quot;&gt;&lt;/a&gt;语法相关&lt;/h2&gt;&lt;h3 id=&quot;类&quot;&gt;&lt;a href=&quot;#类&quot; class=&quot;headerlink&quot; title=&quot;类&quot;&gt;&lt;/a&gt;类&lt;/h3&gt;&lt;h</summary>
+      
+    
+    
+    
+    
+    <category term="Swift" scheme="https://samingzhong.github.io/tags/Swift/"/>
     
   </entry>
   
@@ -413,26 +444,6 @@
     <category term="Flutter" scheme="https://samingzhong.github.io/tags/Flutter/"/>
     
     <category term="Widget" scheme="https://samingzhong.github.io/tags/Widget/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Flutter 开发Q&amp;A</title>
-    <link href="https://samingzhong.github.io/2022/08/25/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/Flutter/Flutter%20%E5%BC%80%E5%8F%91Q&amp;A/"/>
-    <id>https://samingzhong.github.io/2022/08/25/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/Flutter/Flutter%20%E5%BC%80%E5%8F%91Q&amp;A/</id>
-    <published>2022-08-25T05:52:03.000Z</published>
-    <updated>2022-09-21T07:09:44.168Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Everything-is-a-Widget"><a href="#Everything-is-a-Widget" class="headerlink" title="Everything is a Widget"></a>Everything is a Widget</h3><p>一切皆组件</p><h3 id="WebView与原生Flutter的交互"><a href="#WebView与原生Flutter的交互" class="headerlink" title="WebView与原生Flutter的交互"></a>WebView与原生Flutter的交互</h3><h3 id="Flutter转场卡顿"><a href="#Flutter转场卡顿" class="headerlink" title="Flutter转场卡顿"></a>Flutter转场卡顿</h3><ol><li><p>转场动画加上页面初始化&#x2F;销毁中较复杂的操作（一般涉及到IO或者比较消耗CPU的计算），可能会引起页面卡顿。</p><p>解决方案</p><blockquote><ol><li>退出页面卡顿：找出导致卡顿的代码，并做异步线程调用或者延迟调用，或者调用后，延迟退出页面。</li><li>进入页面卡顿：找出导致卡顿的代码，并做异步线程调用或者延迟调用，相关数据等待可以加loading。</li></ol></blockquote></li><li><p>动画卡顿</p><ol><li>当前机器发热严重，CPU&#x2F;GPU处于降频期间。</li></ol></li></ol><h3 id="Flutter-切圆角-ClipRRect"><a href="#Flutter-切圆角-ClipRRect" class="headerlink" title="Flutter 切圆角 ClipRRect"></a>Flutter 切圆角 ClipRRect</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ClipRRect</span><br></pre></td></tr></table></figure><h3 id="Could-not-run-build-x2F-ios-x2F-iphoneos-x2F-Runner-app-Try-launching-Xcode-and-selecting-“Product-gt-Run”-to-fix-the-problem-107760"><a href="#Could-not-run-build-x2F-ios-x2F-iphoneos-x2F-Runner-app-Try-launching-Xcode-and-selecting-“Product-gt-Run”-to-fix-the-problem-107760" class="headerlink" title="Could not run build&#x2F;ios&#x2F;iphoneos&#x2F;Runner.app, Try launching Xcode and selecting “Product &gt; Run” to fix the problem #107760"></a>Could not run build&#x2F;ios&#x2F;iphoneos&#x2F;Runner.app, Try launching Xcode and selecting “Product &gt; Run” to fix the problem #107760</h3><p><a href="https://github.com/flutter/flutter/issues/107760">https://github.com/flutter/flutter/issues/107760</a></p><p><a href="https://juejin.cn/post/7104133574739099684">https://juejin.cn/post/7104133574739099684</a></p><p>最后，完全执行（多个目录下）Flutter clean后，重新run起来了。</p><h3 id="Xcode打包生成ipa四个选项的具体区别"><a href="#Xcode打包生成ipa四个选项的具体区别" class="headerlink" title="Xcode打包生成ipa四个选项的具体区别"></a>Xcode打包生成ipa四个选项的具体区别</h3><p><a href="https://www.jianshu.com/p/94e581861707">https://www.jianshu.com/p/94e581861707</a></p><h3 id="Flutter-路由管理-https-book-flutterchina-club-chapter2-flutter-router-html"><a href="#Flutter-路由管理-https-book-flutterchina-club-chapter2-flutter-router-html" class="headerlink" title="Flutter 路由管理 https://book.flutterchina.club/chapter2/flutter_router.html"></a>Flutter 路由管理 <a href="https://book.flutterchina.club/chapter2/flutter_router.html">https://book.flutterchina.club/chapter2/flutter_router.html</a></h3><p>路由，在移动开发中就是页面，比如iOS的ViewController， Android的Activity。</p><p>路由管理，则是会维护一个路由列表。常见的方法就是push（进入一个页面），pop（退出页面）。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;Everything-is-a-Widget&quot;&gt;&lt;a href=&quot;#Everything-is-a-Widget&quot; class=&quot;headerlink&quot; title=&quot;Everything is a Widget&quot;&gt;&lt;/a&gt;Everything is a Widg</summary>
-      
-    
-    
-    
     
   </entry>
   

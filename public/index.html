@@ -77,6 +77,50 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-10月有感" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/10/11/10%E6%9C%88%E6%9C%89%E6%84%9F/" class="article-date">
+  <time class="dt-published" datetime="2022-10-10T16:14:40.000Z" itemprop="datePublished">2022-10-11</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/10/11/10%E6%9C%88%E6%9C%89%E6%84%9F/">10月有感</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+      <!-- Table of Contents -->
+      
+        <p>10月份，是一个关键，动荡的月份。</p>
+<p>愿诸事顺遂！</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://samingzhong.github.io/2022/10/11/10%E6%9C%88%E6%9C%89%E6%84%9F/" data-id="cl92z7ai200009f0g16p2ddv2" data-title="10月有感" class="article-share-link">分享</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%9C%AA%E5%AE%9A%E4%B9%89/" rel="tag">未定义</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-Swift知识点备忘" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2022/09/29/Swift%E7%9F%A5%E8%AF%86%E7%82%B9%E5%A4%87%E5%BF%98/" class="article-date">
@@ -101,7 +145,30 @@
       
       <!-- Table of Contents -->
       
-        
+        <h2 id="语法相关"><a href="#语法相关" class="headerlink" title="语法相关"></a>语法相关</h2><h3 id="类"><a href="#类" class="headerlink" title="类"></a>类</h3><h3 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h3><h4 id="命名参数、命名可选参数、默认参数。"><a href="#命名参数、命名可选参数、默认参数。" class="headerlink" title="命名参数、命名可选参数、默认参数。"></a>命名参数、命名可选参数、默认参数。</h4><p>命名参数</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">func</span> <span class="title function_">functionNameA</span>(<span class="params">lableA</span> <span class="params">a</span>:<span class="type">String</span>, labelB b <span class="type">String</span>) -&gt; <span class="type">Type</span> &#123;&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="数据转化"><a href="#数据转化" class="headerlink" title="数据转化"></a>数据转化</h2><p>一般来说，就是JSON字符串转为我们自定义的类。过程大概是：</p>
+<blockquote>
+<p><strong>JSON字符串-》字典（或数组）-〉转为自定义对象（自定义对象数组）</strong></p>
+</blockquote>
+<p>JSON转为字典，iOS Swift 中使用 JSONSerialization.jsonObject(with: data, …) 传入字符串的Data格式数据即可。</p>
+<h3 id="JSON结构类型只有两种：对象结构和数组结构"><a href="#JSON结构类型只有两种：对象结构和数组结构" class="headerlink" title="JSON结构类型只有两种：对象结构和数组结构"></a>JSON结构类型只有两种：对象结构和数组结构</h3><p>JSON定义:<a target="_blank" rel="noopener" href="https://www.json.org/json-zh.html">https://www.json.org/json-zh.html</a> </p>
+<p>对象结构:</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="string">&quot;name&quot;</span>: <span class="string">&quot;zhongxm&quot;</span>,</span><br><span class="line">  <span class="string">&quot;age&quot;</span>: <span class="number">30</span>,</span><br><span class="line">  <span class="string">&quot;sex&quot;</span>: <span class="number">1</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>数组结构:</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">[</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;name&quot;</span>: <span class="string">&quot;zhongxm&quot;</span>,</span><br><span class="line">    <span class="string">&quot;age&quot;</span>: <span class="number">30</span>,</span><br><span class="line">    <span class="string">&quot;sex&quot;</span>: <span class="number">1</span></span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;name&quot;</span>: <span class="string">&quot;zhongyi&quot;</span>,</span><br><span class="line">    <span class="string">&quot;age&quot;</span>: <span class="number">5</span>,</span><br><span class="line">    <span class="string">&quot;sex&quot;</span>: <span class="number">1</span></span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;name&quot;</span>: <span class="string">&quot;lxy&quot;</span>,</span><br><span class="line">    <span class="string">&quot;age&quot;</span>: <span class="number">30</span>,</span><br><span class="line">    <span class="string">&quot;sex&quot;</span>: <span class="number">1</span></span><br><span class="line">  &#125;</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+
+<p>然后就是字典转Model，第三方：阿里HandyJSON</p>
+<p>原生写法：Model 实现Codable协议，字典转JSON Data，JSONDecoder把 JSON Data转为指定的model类（会用到Codable协议实现）</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">MyPerson</span> : <span class="title class_">Codable</span> &#123;</span><br><span class="line">    <span class="keyword">let</span> name:<span class="type">String</span></span><br><span class="line">    <span class="keyword">let</span> age:<span class="type">Int</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">func</span> <span class="title function_">DictToModel</span>(<span class="params">dict</span>:[<span class="params">String</span>:<span class="keyword">Any</span>]<span class="operator">?</span>) -&gt; <span class="keyword">Any</span><span class="operator">?</span> &#123;</span><br><span class="line">    <span class="keyword">let</span> dic <span class="operator">=</span> [<span class="string">&quot;name&quot;</span>:<span class="string">&quot;zhongxm&quot;</span>, <span class="string">&quot;age&quot;</span>:<span class="number">31</span>] <span class="keyword">as</span> [<span class="type">String</span> : <span class="keyword">Any</span>]</span><br><span class="line">    <span class="keyword">do</span> &#123;</span><br><span class="line">        <span class="keyword">let</span> json <span class="operator">=</span> <span class="keyword">try</span> <span class="type">JSONSerialization</span>.data(withJSONObject: dic)</span><br><span class="line">        <span class="keyword">let</span> decoder <span class="operator">=</span> <span class="type">JSONDecoder</span>()</span><br><span class="line">        decoder.keyDecodingStrategy <span class="operator">=</span> .convertFromSnakeCase</span><br><span class="line">        <span class="keyword">let</span> model <span class="operator">=</span> <span class="keyword">try</span> decoder.decode(<span class="type">MyPerson</span>.<span class="keyword">self</span>, from: json)</span><br><span class="line">        <span class="keyword">return</span> model</span><br><span class="line">    &#125; <span class="keyword">catch</span> <span class="keyword">let</span> error &#123;</span><br><span class="line">        <span class="built_in">print</span>(error.localizedDescription)</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="literal">nil</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="第三方-阿里HandyJSON"><a href="#第三方-阿里HandyJSON" class="headerlink" title="第三方 阿里HandyJSON"></a>第三方 阿里HandyJSON</h2>
       
     </div>
     <footer class="article-footer">
@@ -109,7 +176,7 @@
       
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%9C%AA%E5%AE%9A%E4%B9%89/" rel="tag">未定义</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Swift/" rel="tag">Swift</a></li></ul>
 
     </footer>
   </div>
@@ -542,46 +609,6 @@
 
 
   
-    <article id="post-软件开发/其他/App调研/RSS阅读器/RSS阅读器" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/08/30/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E5%85%B6%E4%BB%96/App%E8%B0%83%E7%A0%94/RSS%E9%98%85%E8%AF%BB%E5%99%A8/RSS%E9%98%85%E8%AF%BB%E5%99%A8/" class="article-date">
-  <time class="dt-published" datetime="2022-08-30T02:04:27.000Z" itemprop="datePublished">2022-08-30</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/08/30/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E5%85%B6%E4%BB%96/App%E8%B0%83%E7%A0%94/RSS%E9%98%85%E8%AF%BB%E5%99%A8/RSS%E9%98%85%E8%AF%BB%E5%99%A8/">RSS阅读器</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-      <!-- Table of Contents -->
-      
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://samingzhong.github.io/2022/08/30/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E5%85%B6%E4%BB%96/App%E8%B0%83%E7%A0%94/RSS%E9%98%85%E8%AF%BB%E5%99%A8/RSS%E9%98%85%E8%AF%BB%E5%99%A8/" data-id="cl8mfdu870015xd693rnvfx87" data-title="RSS阅读器" class="article-share-link">分享</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
 
 
   <nav id="page-nav">
@@ -600,7 +627,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">标签</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/App/" rel="tag">App</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/AppFlyer/" rel="tag">AppFlyer</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/App%E5%8F%98%E7%8E%B0/" rel="tag">App变现</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/App%E8%AE%BE%E8%AE%A1/" rel="tag">App设计</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/App%E8%BF%90%E8%90%A5/" rel="tag">App运营</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Bash/" rel="tag">Bash</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Flutter/" rel="tag">Flutter</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Widget/" rel="tag">Widget</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Xcode/" rel="tag">Xcode</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BA%A7%E5%93%81%E5%BC%80%E5%8F%91/" rel="tag">产品开发</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BA%A7%E5%93%81%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/" rel="tag">产品生命周期</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/" rel="tag">最佳实践</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%AA%E5%AE%9A%E4%B9%89/" rel="tag">未定义</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%9F%E6%B4%BB/" rel="tag">生活</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/" rel="tag">移动开发</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92/" rel="tag">职业规划</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AE%A1%E5%88%92-%E5%AE%8C%E6%88%90/" rel="tag">计划&amp;完成</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/" rel="tag">软件开发</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/App/" rel="tag">App</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/AppFlyer/" rel="tag">AppFlyer</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/App%E5%8F%98%E7%8E%B0/" rel="tag">App变现</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/App%E8%AE%BE%E8%AE%A1/" rel="tag">App设计</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/App%E8%BF%90%E8%90%A5/" rel="tag">App运营</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Bash/" rel="tag">Bash</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Flutter/" rel="tag">Flutter</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Swift/" rel="tag">Swift</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Widget/" rel="tag">Widget</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Xcode/" rel="tag">Xcode</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BA%A7%E5%93%81%E5%BC%80%E5%8F%91/" rel="tag">产品开发</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BA%A7%E5%93%81%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/" rel="tag">产品生命周期</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/" rel="tag">最佳实践</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%AA%E5%AE%9A%E4%B9%89/" rel="tag">未定义</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%9F%E6%B4%BB/" rel="tag">生活</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/" rel="tag">移动开发</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92/" rel="tag">职业规划</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AE%A1%E5%88%92-%E5%AE%8C%E6%88%90/" rel="tag">计划&amp;完成</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/" rel="tag">软件开发</a></li></ul>
     </div>
   </div>
 
@@ -610,7 +637,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">标签云</h3>
     <div class="widget tagcloud">
-      <a href="/tags/App/" style="font-size: 10px;">App</a> <a href="/tags/AppFlyer/" style="font-size: 10px;">AppFlyer</a> <a href="/tags/App%E5%8F%98%E7%8E%B0/" style="font-size: 10px;">App变现</a> <a href="/tags/App%E8%AE%BE%E8%AE%A1/" style="font-size: 10px;">App设计</a> <a href="/tags/App%E8%BF%90%E8%90%A5/" style="font-size: 15px;">App运营</a> <a href="/tags/Bash/" style="font-size: 10px;">Bash</a> <a href="/tags/Flutter/" style="font-size: 15px;">Flutter</a> <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/Widget/" style="font-size: 10px;">Widget</a> <a href="/tags/Xcode/" style="font-size: 10px;">Xcode</a> <a href="/tags/%E4%BA%A7%E5%93%81%E5%BC%80%E5%8F%91/" style="font-size: 10px;">产品开发</a> <a href="/tags/%E4%BA%A7%E5%93%81%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/" style="font-size: 10px;">产品生命周期</a> <a href="/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/" style="font-size: 15px;">最佳实践</a> <a href="/tags/%E6%9C%AA%E5%AE%9A%E4%B9%89/" style="font-size: 15px;">未定义</a> <a href="/tags/%E7%94%9F%E6%B4%BB/" style="font-size: 10px;">生活</a> <a href="/tags/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/" style="font-size: 10px;">移动开发</a> <a href="/tags/%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92/" style="font-size: 10px;">职业规划</a> <a href="/tags/%E8%AE%A1%E5%88%92-%E5%AE%8C%E6%88%90/" style="font-size: 20px;">计划&完成</a> <a href="/tags/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/" style="font-size: 10px;">软件开发</a>
+      <a href="/tags/App/" style="font-size: 10px;">App</a> <a href="/tags/AppFlyer/" style="font-size: 10px;">AppFlyer</a> <a href="/tags/App%E5%8F%98%E7%8E%B0/" style="font-size: 10px;">App变现</a> <a href="/tags/App%E8%AE%BE%E8%AE%A1/" style="font-size: 10px;">App设计</a> <a href="/tags/App%E8%BF%90%E8%90%A5/" style="font-size: 15px;">App运营</a> <a href="/tags/Bash/" style="font-size: 10px;">Bash</a> <a href="/tags/Flutter/" style="font-size: 15px;">Flutter</a> <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/Swift/" style="font-size: 10px;">Swift</a> <a href="/tags/Widget/" style="font-size: 10px;">Widget</a> <a href="/tags/Xcode/" style="font-size: 10px;">Xcode</a> <a href="/tags/%E4%BA%A7%E5%93%81%E5%BC%80%E5%8F%91/" style="font-size: 10px;">产品开发</a> <a href="/tags/%E4%BA%A7%E5%93%81%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/" style="font-size: 10px;">产品生命周期</a> <a href="/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/" style="font-size: 15px;">最佳实践</a> <a href="/tags/%E6%9C%AA%E5%AE%9A%E4%B9%89/" style="font-size: 15px;">未定义</a> <a href="/tags/%E7%94%9F%E6%B4%BB/" style="font-size: 10px;">生活</a> <a href="/tags/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/" style="font-size: 10px;">移动开发</a> <a href="/tags/%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92/" style="font-size: 10px;">职业规划</a> <a href="/tags/%E8%AE%A1%E5%88%92-%E5%AE%8C%E6%88%90/" style="font-size: 20px;">计划&完成</a> <a href="/tags/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/" style="font-size: 10px;">软件开发</a>
     </div>
   </div>
 
@@ -619,7 +646,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/09/">九月 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/08/">八月 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/07/">七月 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">十二月 2017</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/10/">十月 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/09/">九月 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/08/">八月 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/07/">七月 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">十二月 2017</a></li></ul>
     </div>
   </div>
 
@@ -630,6 +657,10 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2022/10/11/10%E6%9C%88%E6%9C%89%E6%84%9F/">10月有感</a>
+          </li>
         
           <li>
             <a href="/2022/09/29/Swift%E7%9F%A5%E8%AF%86%E7%82%B9%E5%A4%87%E5%BF%98/">Swift知识点备忘</a>
@@ -645,10 +676,6 @@
         
           <li>
             <a href="/2022/09/09/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/%E5%85%B6%E4%BB%96/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E6%9D%82%E8%B0%88/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E6%9D%82%E8%B0%88/">移动开发杂谈</a>
-          </li>
-        
-          <li>
-            <a href="/2022/09/02/%E6%9C%AA%E5%AE%9A%E4%B9%89/Apple%20Developer/">(no title)</a>
           </li>
         
       </ul>
